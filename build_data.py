@@ -1,0 +1,49 @@
+import json,re,datetime
+Q10='https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm'
+F13='https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/'
+TK={'037833100':'AAPL','025816109':'AXP','191216100':'KO','02079K305':'GOOGL','060505104':'BAC','166764100':'CVX','674599105':'OXY','H1467J104':'CB','615369105':'MCO','02079K107':'GOOG','500754106':'KHC','23918K108':'DVA','247361702':'DAL','829933100':'SIRI','92343E102':'VRSN','501044101':'KR','02005N100':'ALLY','526057104':'LEN','530909308':'LLYVK','650111107':'NYT','14040H105':'COF','530909100':'LLYVA','546347105':'LPX','670346105':'NUE','55616P104':'M','62944T105':'NVR','526057302':'LEN.B','47233W109':'JEF','23331A109':'DHI'}
+x=open('/workspace/13f.xml').read();h={}
+for it in re.findall(r'<(?:\w+:)?infoTable>(.*?)</(?:\w+:)?infoTable>',x,re.S):
+  g=lambda f:re.search(rf'<(?:\w+:)?{f}>(.*?)<',it).group(1)
+  c=g('cusip');a=h.setdefault(c,{'name':g('nameOfIssuer').title(),'cls':g('titleOfClass'),'cusip':c,'tk':TK[c],'val':0,'sh':0});a['val']+=int(g('value'));a['sh']+=int(g('sshPrnamt'))
+hold=sorted(h.values(),key=lambda r:-r['val'])
+for r in hold: r['eqm']=r['tk'] in('OXY','KHC')
+D={'built_sgt':datetime.datetime.now().strftime('%Y-%m-%d %H:%M'),
+'src':{'q10':['Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)',Q10],'f13':['Form 13F-HR for 30 Jun 2026 (filed 14 Aug 2026)',F13],
+ 'edgar':['SEC EDGAR filing index, CIK 1067983','https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=&dateb=&owner=include&count=40']},
+'qe':'2026-06-30',
+# all $m, from 10-Q balance sheet p.2-3
+'bs':{'assets':[['Investments in equity securities (fair value)',323779,'eq'],['Cash & equivalents (Insurance & Other)',35096,'cash'],['Short-term U.S. Treasury Bills',324905,'cash'],['Cash & equivalents (Railroad, Utilities & Energy)',5513,'cash'],['Fixed maturity securities',17034,'fix'],['Equity-method investments (Kraft Heinz, Occidental, Berkadia)',19948,'eqm'],['Loans & finance receivables',30724,'op'],['Other receivables (I&O 48,635 + RUE 4,562)',53197,'op'],['Inventories',26575,'op'],['PP&E (I&O 39,409 + RUE 185,815)',225224,'op'],['Equipment held for lease',18912,'op'],['Goodwill (I&O 56,192 + RUE 26,981)',83173,'op'],['Other intangible assets',33949,'op'],['Deferred charges – retroactive reinsurance',7675,'op'],['Regulatory assets (RUE)',4385,'op'],['Other assets (I&O 27,813 + RUE 25,169)',52982,'op']],
+ 'liabs':[['Insurance liabilities: unpaid losses & LAE',122875,'ins'],['Unpaid losses & LAE – retroactive reinsurance',29978,'ins'],['Unearned premiums',32754,'ins'],['Life, annuity & health benefits',17738,'ins'],['Other policyholder liabilities',9942,'ins'],['Notes payable & borrowings – Insurance & Other (incl. Berkshire parent, BHFC)',43302,'debt'],['Notes payable & borrowings – Railroad, Utilities & Energy',85297,'debt'],['Income taxes, principally deferred',90176,'tax'],['Accounts payable, accruals & other (I&O 41,422 + RUE 20,424)',61846,'oth'],['Payable for T-bill purchases (unsettled)',771,'oth'],['Aircraft repurchase liab. & unearned lease revenue',11217,'oth'],['Regulatory liabilities (RUE)',6998,'oth']],
+ 'nci':2267,'equity':747910,'equity_prev':717419,'total_assets':1263071,'total_liabs':512894},
+'eq_basis':{'cost':106521,'unreal':217258,'fv':323779},
+'eqm':[{'name':'Kraft Heinz','tk':'KHC','carry':8760,'fv':7692,'pct':27.5},{'name':'Occidental','tk':'OXY','carry':10727,'fv':12868,'pct':26.7},{'name':'Berkadia (50%, unlisted)','tk':None,'carry':461,'fv':None,'pct':50}],
+'shares':{'a_eq':1431693,'note':'Class A-equivalent shares outstanding at 30 Jun 2026 (10-Q Note 18); Class B-equivalent = × 1,500'},
+'float':{'v':177.5,'note':'≈$177.5bn at 30 Jun 2026, +$1.1bn vs 31 Dec 2025 (10-Q MD&A)'},
+'seg':{'cols':['Q2 2026','Q2 2025','H1 2026','H1 2025'],'rows':[['Insurance – underwriting',1731,1992,3448,3328],['Insurance – investment income',3059,3367,5738,6260],['BNSF',1558,1466,2935,2680],['Berkshire Hathaway Energy (BHE)',891,702,2005,1799],['Manufacturing, service & retailing',4470,3601,7669,6661],['Other',1274,32,2534,73]],
+ 'inv':[['Investment gains (losses)',12684,4970,11444,-68],['OTTI – Kraft Heinz',0,-3760,0,-3760]],'net':[25667,12370,35773,16973]},
+'buyback':{'q2':[['May','A',65,716231.37],['May','B',1458312,476.01],['Jun','A',413,733775.06],['Jun','B',7139881,487.98]],'april':'none','treasury':[78939,83701],
+ 'note':'Treasury stock at cost rose $4.76bn in H1 2026 ($78.94bn → $83.70bn). Q2 repurchases per 10-Q Part II Item 2. Repurchases after 30 Jun 2026 are not yet disclosed (Q3 10-Q pending) → set to $0 in live BV.'},
+'cashpol':'Berkshire will not repurchase if consolidated cash, equivalents and T-bills would fall below $30bn (10-Q).',
+'hold':hold,
+'japan':[{'name':'Mitsubishi Corp','tk':'8058-JP','sh':410339800,'asof':'2026-05-12'},{'name':'Mitsui & Co','tk':'8031-JP','sh':310311400,'asof':'2026-07-01'},{'name':'Itochu Corp','tk':'8001-JP','sh':704799500,'asof':'2026-02-27','url':'https://www.itochu.co.jp/en/news/press/2026/260302.html','via':'Itochu press release 2 Mar 2026'},{'name':'Marubeni Corp','tk':'8002-JP','sh':171439700,'asof':'2026-07-01'},{'name':'Sumitomo Corp','tk':'8053-JP','sh':492517200,'asof':'2026-05-19'}],
+'japan_via':['Japan large-shareholding reports (EDINET) as compiled by berkshirerealtimevalue.com','https://www.berkshirerealtimevalue.com/'],
+'street':{'avg':547.67,'lo':510,'hi':604,'n':4,'rating':'Buy (2 Buy / 2 Hold)','asof':'2026-10-22','via':['StockAnalysis (S&P Global Market Intelligence)','https://stockanalysis.com/stocks/brk.b/forecast/'],
+ 'notes':[['2026-10-22','UBS (Brian Meredith) raises PT to $628 from $604, Buy','https://www.tipranks.com/news/the-fly/berkshire-hathaway-price-target-raised-to-628-from-604-at-ubs-thefly-news'],['2026-08-17','DBS (Manyi Lu) Hold, PT $540','https://stockanalysis.com/stocks/brk.b/forecast/']],
+ 'q3':'Q3 2026 operating EPS per Class A share consensus ~$8,659 (3 analysts; range $8,335–9,094) per Drillr calendar — Street estimate, not management guidance (Berkshire gives none).','q3url':'https://drillr.ai/article/brk-a-berkshire-hathaway-q3-2026-earnings-preview-geico-pricing-tbill-income'},
+'next':{'date':'2026-11-07','note':'Q3 2026 results expected Sat 7 Nov 2026 (third-party calendars; some list 2 Nov). Not confirmed by Berkshire.','url':'https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283'},
+'people':[['Greg Abel','President & CEO (since 1 Jan 2026)'],['Warren Buffett','Chairman of the Board'],['Ajit Jain','Vice Chairman, Insurance Operations'],['Adam Johnson','Leads consumer products, service & retailing (reports to Abel)']],
+'people_src':['Drillr Q3 preview citing Berkshire filings; Japan Times 17 Sep 2026','https://www.japantimes.co.jp/business/2026/09/17/companies/berkshire-japan-trading-house-boost/'],
+'news':[['2026-09-17','Abel met Japanese trading-house leaders; Itochu chair says Berkshire may raise stakes (some ~10%→ up to 15%).','https://www.japantimes.co.jp/business/2026/09/17/companies/berkshire-japan-trading-house-boost/'],['2026-10-17','CNBC: Berkshire rally to highest since Buffett retirement announcement.','https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html']],
+}
+import urllib.request
+req=urllib.request.Request('https://data.sec.gov/submissions/CIK0001067983.json',headers={'User-Agent':'Hugo Tian research hugo@example.com'})
+s=json.load(urllib.request.urlopen(req))['filings']['recent'];F=[]
+for i in range(25):
+  acc=s['accessionNumber'][i];F.append([s['filingDate'][i],s['form'][i],s['reportDate'][i],f"https://www.sec.gov/Archives/edgar/data/1067983/{acc.replace('-','')}/{s['primaryDocument'][i] if not s['primaryDocument'][i].startswith('xsl') else ''}"])
+D['filings']=F
+# integrity checks
+a=sum(r[1] for r in D['bs']['assets']);l=sum(r[1] for r in D['bs']['liabs'])
+assert a==1263071,a; assert l==512894,l; assert a-l-2267==747910
+assert sum(r['val'] for r in hold)==299253556246
+open('data.js','w').write('window.BRK_DATA='+json.dumps(D,ensure_ascii=False)+';\n');print('ok',len(F))

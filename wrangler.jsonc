@@ -1,0 +1,9 @@
+// Cloudflare Worker "brkb-dashboard": static dashboard files (repo root) + /api/quotes (worker.js). Mirrors mu-dashboard setup.
+{
+  "name": "brkb-dashboard",
+  "main": "worker.js",
+  "compatibility_date": "2025-06-01",
+  "assets": { "directory": ".", "binding": "ASSETS", "run_worker_first": ["/api/*"] },
+  "workers_dev": true,
+  "observability": { "enabled": true }
+}
