@@ -1,47 +1,145 @@
-// Cloudflare Worker "brkb-dashboard": static files + /api/quote(s). Modeled on Hugoztian/mu-dashboard worker.js.
-// GET /api/quotes            -> all allowed symbols (BRK.B, BRK.A, every 13F holding, Japan trading houses, USD/JPY)
-// GET /api/quotes?symbols=A,B -> subset;  GET /api/quote?symbol=BRK.B -> single (Micron-compatible shape: {ok,main:{price}})
-// Sources: Robinhood batch quotes (US) -> CNBC quote feed fallback (US + Tokyo + FX). 10 s edge cache.
-const ALLOWED = ["BRK.B", "BRK.A", "AAPL", "ALLY", "AXP", "BAC", "CB", "COF", "CVX", "DAL", "DHI", "DVA", "GOOG", "GOOGL", "JEF", "KHC", "KO", "KR", "LEN", "LEN.B", "LLYVA", "LLYVK", "LPX", "M", "MCO", "NUE", "NVR", "NYT", "OXY", "SIRI", "VRSN", "8058-JP", "8031-JP", "8001-JP", "8002-JP", "8053-JP", "JPY="];
-const UA = 'Mozilla/5.0 (brkb-dashboard quote worker)';
-const CORS = { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=10' };
-const num = s => { const v = parseFloat(String(s ?? '').replace(/,/g, '')); return isFinite(v) ? v : null; };
-async function robinhood(us) {
-  const out = {}; if (!us.length) return out;
-  const r = await fetch('https://api.robinhood.com/marketdata/quotes/?bounds=24_5&symbols=' + encodeURIComponent(us.join(',')), { headers: { 'User-Agent': UA, Accept: 'application/json' } });
-  if (!r.ok) throw new Error('robinhood ' + r.status);
-  for (const q of (await r.json()).results || []) { if (!q) continue; const p = num(q.last_extended_hours_trade_price) && q.last_extended_hours_trade_price ? num(q.last_trade_price) : num(q.last_trade_price);
-    if (p) out[q.symbol] = { price: num(q.last_trade_price), prev_close: num(q.adjusted_previous_close ?? q.previous_close), ext_price: num(q.last_extended_hours_trade_price), time: q.updated_at, source: 'Robinhood' }; }
-  return out;
+// brkb-dashboard Worker (copied from micron-dashboard worker.js per live-feed recipe): serves the static dashboard (assets) + GET /api/quote (live quote, keyless, CORS *).
+// ?symbol= optional: BRK.B (default), BRK.A or any allowlisted 13F ticker (anything else -> 400). Market hours/holidays: XNAS calendar.
+// Sources, in order: Robinhood public quotes (bounds=24_5: Nasdaq last sale + extended/overnight prints, no key),
+// then Nasdaq.com quote API. Cached in-isolate ~12 s.
+const SYMBOLS = { 'BRK.B': { exchange: 'NYSE' }, 'BRK.A': { exchange: 'NYSE' }, 'AAPL': { exchange: 'Nasdaq' }, 'ALLY': { exchange: 'NYSE' }, 'AXP': { exchange: 'NYSE' }, 'BAC': { exchange: 'NYSE' }, 'CB': { exchange: 'NYSE' }, 'COF': { exchange: 'NYSE' }, 'CVX': { exchange: 'NYSE' }, 'DAL': { exchange: 'Nasdaq' }, 'DHI': { exchange: 'NYSE' }, 'DVA': { exchange: 'NYSE' }, 'GOOG': { exchange: 'Nasdaq' }, 'GOOGL': { exchange: 'Nasdaq' }, 'JEF': { exchange: 'NYSE' }, 'KHC': { exchange: 'Nasdaq' }, 'KO': { exchange: 'NYSE' }, 'KR': { exchange: 'NYSE' }, 'LEN': { exchange: 'NYSE' }, 'LEN.B': { exchange: 'NYSE' }, 'LLYVA': { exchange: 'Nasdaq' }, 'LLYVK': { exchange: 'Nasdaq' }, 'LPX': { exchange: 'NYSE' }, 'M': { exchange: 'NYSE' }, 'MCO': { exchange: 'NYSE' }, 'NUE': { exchange: 'NYSE' }, 'NVR': { exchange: 'NYSE' }, 'NYT': { exchange: 'NYSE' }, 'OXY': { exchange: 'NYSE' }, 'SIRI': { exchange: 'Nasdaq' }, 'VRSN': { exchange: 'Nasdaq' } }; // allowlist: BRK.B, BRK.A + every US-listed 13F holding (30 Jun 2026)
+const DEFAULT_SYMBOL = 'BRK.B';
+const TTL_MS = 12000;
+const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36';
+const caches_ = {}; // symbol -> { at, body }
+let hoursCache = {}; // ET date -> {is_open}
+
+const CORS = {
+  'Access-Control-Allow-Origin': '*',
+  'Access-Control-Allow-Methods': 'GET, OPTIONS',
+  'Access-Control-Allow-Headers': 'Content-Type',
+};
+
+function etParts(ms) {
+  const f = new Intl.DateTimeFormat('en-US', { timeZone: 'America/New_York', hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit', weekday: 'short' });
+  const p = Object.fromEntries(f.formatToParts(new Date(ms)).map(x => [x.type, x.value]));
+  const wd = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].indexOf(p.weekday);
+  return { date: `${p.year}-${p.month}-${p.day}`, hm: (+p.hour) * 60 + (+p.minute), time: `${p.hour}:${p.minute}:${p.second}`, wd };
 }
-async function cnbc(list) {
-  const out = {};
-  for (let i = 0; i < list.length; i += 25) {
-    const u = 'https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=' + encodeURIComponent(list.slice(i, i + 25).join('|')) + '&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1';
-    const r = await fetch(u, { headers: { 'User-Agent': UA } }); if (!r.ok) throw new Error('cnbc ' + r.status);
-    for (const q of (await r.json()).FormattedQuoteResult.FormattedQuote || []) { const p = num(q.last); if (p) out[q.symbol] = { price: p, prev_close: num(q.previous_day_closing), change: num(q.change), change_pct: q.change_pct, currency: q.currencyCode || null, time: q.last_timedate || q.last_time, source: 'CNBC' }; }
+// Which part of the 24h cycle a print/time falls in (by ET clock).
+function bucket(ms) {
+  const { hm } = etParts(ms);
+  if (hm >= 570 && hm < 960) return 'regular';
+  if (hm >= 240 && hm < 570) return 'pre';
+  if (hm >= 960 && hm < 1200) return 'post';
+  return 'overnight';
+}
+const LABEL = { regular: 'Regular session', pre: 'Pre-market', post: 'After-hours', overnight: 'Overnight', closed: 'Market closed' };
+
+async function isTradingDay(date) {
+  if (hoursCache[date] !== undefined) return hoursCache[date];
+  let open = null;
+  try {
+    const r = await fetch(`https://api.robinhood.com/markets/XNAS/hours/${date}/`, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+    if (r.ok) open = !!(await r.json()).is_open;
+  } catch (e) {}
+  if (open === null) { const wd = new Date(date + 'T12:00:00Z').getUTCDay(); open = wd >= 1 && wd <= 5; }
+  hoursCache[date] = open;
+  return open;
+}
+async function sessionNow(now) {
+  const e = etParts(now);
+  const tday = await isTradingDay(e.date);
+  if (tday && e.hm >= 570 && e.hm < 960) return 'regular';
+  if (tday && e.hm >= 240 && e.hm < 570) return 'pre';
+  if (tday && e.hm >= 960 && e.hm < 1200) return 'post';
+  // overnight (Blue Ocean ATS): 20:00 Sun–Thu -> 04:00 next weekday
+  if ((e.hm >= 1200 && e.wd >= 0 && e.wd <= 4) || (e.hm < 240 && e.wd >= 1 && e.wd <= 5)) return 'overnight';
+  return 'closed';
+}
+const num = v => (v === null || v === undefined || v === '' ? null : +v);
+const chg = (p, ref) => (p != null && ref ? { change: +(p - ref).toFixed(4), pct: +((p / ref - 1) * 100).toFixed(4) } : { change: null, pct: null });
+
+function shape({ symbol = DEFAULT_SYMBOL, now, session, regPrice, regTime, prevClose, prevCloseDate, ext, source, sourceNote, bid, ask }) {
+  // reference close for extended prints = latest regular-session close
+  // Reference close for change: during the regular session = previous close; otherwise = the latest regular-session
+  // close (last regular trade), so extended/overnight moves read 'vs close'.
+  let refClose, refDate;
+  if (session === 'regular') { refClose = prevClose; refDate = prevCloseDate; }
+  else { refClose = regPrice ?? prevClose; refDate = regTime ? etParts(regTime).date : prevCloseDate; }
+  let extOut = null;
+  if (ext && ext.price && ext.time && (!regTime || ext.time > regTime)) {
+    const b = bucket(ext.time);
+    extOut = { price: ext.price, time: ext.time, time_et: etParts(ext.time).date + ' ' + etParts(ext.time).time + ' ET', label: LABEL[b === 'regular' ? 'post' : b], kind: b, venue: ext.venue || null, ...chg(ext.price, refClose) };
   }
-  return out;
+  let main;
+  if (session === 'regular') main = { price: regPrice, time: regTime, label: 'Live', kind: 'regular', ...chg(regPrice, prevClose) };
+  else if (extOut) main = { price: extOut.price, time: extOut.time, label: extOut.label, kind: extOut.kind, change: extOut.change, pct: extOut.pct };
+  else main = { price: refClose, time: regTime, label: 'Last close', kind: 'close', change: null, pct: null };
+  if (main.time) main.time_et = etParts(main.time).date + ' ' + etParts(main.time).time + ' ET';
+  return {
+    ok: true, symbol, session, session_label: LABEL[session], source, source_note: sourceNote,
+    main, ext: extOut,
+    regular: { price: regPrice, time: regTime, time_et: regTime ? etParts(regTime).date + ' ' + etParts(regTime).time + ' ET' : null, ...chg(regPrice, prevClose) },
+    prev_close: { price: prevClose, date: prevCloseDate },
+    ref_close: { price: refClose, date: refDate },
+    bid: num(bid), ask: num(ask),
+    fetched_at: new Date(now).toISOString(), fetched_et: etParts(now).date + ' ' + etParts(now).time + ' ET',
+  };
 }
-async function quotes(syms) {
-  const us = syms.filter(s => !/-JP$|=$/.test(s)); let res = {}, errs = [];
-  try { res = await robinhood(us); } catch (e) { errs.push(String(e.message || e)); }
-  const miss = syms.filter(s => !res[s]);
-  if (miss.length) { try { Object.assign(res, await cnbc(miss)); } catch (e) { errs.push(String(e.message || e)); } }
-  return { ok: Object.keys(res).length > 0, asof: new Date().toISOString(), quotes: res, missing: syms.filter(s => !res[s]), errors: errs };
+
+async function fromRobinhood(now, session, symbol) {
+  const r = await fetch(`https://api.robinhood.com/marketdata/quotes/?symbols=${symbol}&bounds=24_5`, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+  if (!r.ok) throw new Error('robinhood ' + r.status);
+  const q = (await r.json()).results?.[0];
+  if (!q || !q.last_trade_price) throw new Error('robinhood empty');
+  const regTime = q.venue_last_trade_time ? Date.parse(q.venue_last_trade_time) : null;
+  const extP = num(q.last_non_reg_trade_price) ?? num(q.last_extended_hours_trade_price);
+  const extT = q.venue_last_non_reg_trade_time ? Date.parse(q.venue_last_non_reg_trade_time) : null;
+  const src = (q.last_non_reg_trade_price_source || '').toLowerCase();
+  if (q.symbol && q.symbol !== symbol) throw new Error('robinhood symbol mismatch');
+  return shape({
+    symbol, now, session, regPrice: num(q.last_trade_price), regTime, prevClose: num(q.previous_close), prevCloseDate: q.previous_close_date,
+    ext: extP && extT ? { price: extP, time: extT, venue: src === 'boats' ? 'Blue Ocean ATS' : (src ? src.toUpperCase() : null) } : null,
+    bid: q.bid_price, ask: q.ask_price,
+    source: 'Robinhood public quote', sourceNote: `real-time: ${symbol === 'MU' ? 'Nasdaq' : SYMBOLS[symbol].exchange} last sale (regular) and Robinhood 24-hour feed (extended/overnight)`,
+  });
 }
+async function fromNasdaq(now, session, symbol) {
+  const r = await fetch(`https://api.nasdaq.com/api/quote/${symbol}/info?assetclass=stocks`, { headers: { 'User-Agent': UA, Accept: 'application/json, text/plain, */*', Origin: 'https://www.nasdaq.com', Referer: 'https://www.nasdaq.com/' } });
+  if (!r.ok) throw new Error('nasdaq ' + r.status);
+  const d = (await r.json()).data; if (!d || !d.primaryData) throw new Error('nasdaq empty'); const p = d.primaryData;
+  const price = +String(p.lastSalePrice).replace(/[$,]/g, ''), net = +String(p.netChange).replace(/[$,+]/g, '');
+  return shape({ symbol, now, session, regPrice: price, regTime: now, prevClose: price - net, prevCloseDate: null, ext: null, source: 'Nasdaq.com quote API', sourceNote: p.isRealTime ? 'Nasdaq real-time' : 'Nasdaq (may be delayed)' });
+}
+
+async function quote(only, symbol = DEFAULT_SYMBOL) {
+  const now = Date.now();
+  const cache = caches_[symbol] || { at: 0, body: null };
+  if (!only && cache.body && now - cache.at < TTL_MS) return { body: cache.body, age: now - cache.at };
+  const session = await sessionNow(now);
+  const errors = [];
+  const SRC = { robinhood: fromRobinhood, nasdaq: fromNasdaq };
+  for (const f of only && SRC[only] ? [SRC[only]] : [fromRobinhood, fromNasdaq]) {
+    try { const b = await f(now, session, symbol); if (errors.length) b.fallback_errors = errors; if (!only) caches_[symbol] = { at: now, body: b }; return { body: b, age: 0 }; }
+    catch (e) { errors.push(String(e).slice(0, 120)); }
+  }
+  if (cache.body) return { body: { ...cache.body, stale: true, errors }, age: now - cache.at };
+  return { body: { ok: false, symbol, errors, fetched_at: new Date(now).toISOString() }, age: 0, status: 502 };
+}
+
+export { shape, etParts, bucket };
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.pathname === '/api/quotes' || url.pathname === '/api/quote') {
-      const raw = url.searchParams.get('symbols') || url.searchParams.get('symbol');
-      const req = raw ? raw.split(',').map(s => s.trim().toUpperCase()).filter(Boolean) : ALLOWED;
-      const bad = req.filter(s => !ALLOWED.includes(s));
-      if (bad.length) return new Response(JSON.stringify({ ok: false, error: 'symbol not allowed', bad, allowed: ALLOWED }), { status: 400, headers: CORS });
-      const j = await quotes(req);
-      if (url.pathname === '/api/quote') { const q = j.quotes[req[0]]; return new Response(JSON.stringify(q ? { ok: true, symbol: req[0], main: q, source_note: q.source } : { ok: false, error: 'unavailable', errors: j.errors }), { headers: CORS }); }
-      return new Response(JSON.stringify(j), { headers: CORS });
+    if (url.pathname === '/api/quote') {
+      if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
+      const symbol = (url.searchParams.get('symbol') || DEFAULT_SYMBOL).trim().toUpperCase();
+      if (!Object.prototype.hasOwnProperty.call(SYMBOLS, symbol)) {
+        return new Response(JSON.stringify({ ok: false, error: 'symbol not allowed', allowed: Object.keys(SYMBOLS) }), {
+          status: 400, headers: { ...CORS, 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' } });
+      }
+      const { body, age, status } = await quote(url.searchParams.get('source'), symbol);
+      return new Response(JSON.stringify({ ...body, cache_age_ms: age }), {
+        status: status || 200,
+        headers: { ...CORS, 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'public, max-age=10' },
+      });
     }
-    return env && env.ASSETS ? env.ASSETS.fetch(request) : new Response('not found', { status: 404 });
-  }
+    return env.ASSETS.fetch(request);
+  },
 };

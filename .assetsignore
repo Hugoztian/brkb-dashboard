@@ -1,4 +1,14 @@
-build_data.py
-worker.js
-wrangler.jsonc
 .git
+.github
+node_modules
+.wrangler
+wrangler.jsonc
+wrangler.toml
+worker.js
+.assetsignore
+.nojekyll
+package.json
+package-lock.json
+build_data.py
+data.json
+README.md
