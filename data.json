@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-10-27 10:10",
+ "built_sgt": "2026-10-29 10:07",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -618,7 +618,7 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-10-27",
+  "asof": "2026-10-29",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
@@ -640,7 +640,7 @@
  },
  "next": {
   "date": "2026-11-07",
-  "note": "Q3 2026 results expected Sat 7 Nov 2026 (third-party calendars; some list 2 Nov). Not confirmed by Berkshire.",
+  "note": "Q3 2026 results expected Sat 7 Nov 2026 (third-party calendars; ad-hoc-news 27 Oct says 6 Nov, some list 2 Nov). Not confirmed by Berkshire.",
   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283"
  },
  "people": [
@@ -667,11 +667,11 @@
  ],
  "youtube": [
   [
-   "2026-10-23",
+   "2026-03-05",
    "Greg Abel on resuming buyback program: I absolutely talked to Warren",
    "CNBC Television",
    "https://www.youtube.com/watch?v=CMcgQ4mbc40",
-   "Abel: Berkshire recommenced repurchases because intrinsic value exceeds price on a conservative basis; decided in consultation with Buffett; amount/timing not disclosed. (Summary from caption transcript via Blumify; date = transcript index date, original upload date unverified.)"
+   "Abel: Berkshire recommenced repurchases because intrinsic value exceeds price on a conservative basis; decided in consultation with Buffett. Date corrected: this is the 5 Mar 2026 Squawk Box clip (CNBC article https://www.cnbc.com/2026/03/05/berkshire-hathaway-begins-repurchasing-shares-ceo-greg-abel-buys-15-million-in-stock-.html), not new buyback news."
   ],
   [
    "2026-10-22",
@@ -696,6 +696,21 @@
   ]
  ],
  "news": [
+  [
+   "2026-10-28",
+   "Zacks: BRK.B above 50-day SMA; P/B 1.55x vs industry 1.48x, 5-yr median 1.46x.",
+   "https://au.finance.yahoo.com/news/berkshire-hathaway-trades-above-50-162100402.html"
+  ],
+  [
+   "2026-10-27",
+   "ad-hoc-news: UBS PT $628 recap; says Q3 results due 6 Nov (vs 7 Nov elsewhere).",
+   "https://www.ad-hoc-news.de/boerse/news/corporate-news/ubs-raised-berkshire-hathaway-stock-target-from-usd-604-to-usd-628/70421895"
+  ],
+  [
+   "2026-10-25",
+   "Motley Fool: H1 buybacks ~$4.8bn; Q2 10-Q cover implies ~4,550 fewer A-equivalent shares by 29 Jul (buying continued into July).",
+   "https://www.fool.com/investing/2026/10/25/berkshire-hathaway-started-buying-back-its-own-stock-again-this-year-should-you-buy-it-at-a-record-high/"
+  ],
   [
    "2026-10-26",
    "Motley Fool: Is Berkshire still a safe buy without Buffett? (Abel era, Alphabet/Bending Spoons tech tilt).",
