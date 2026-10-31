@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-10-30 09:02",
+ "built_sgt": "2026-10-31 09:10",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -618,7 +618,7 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-10-29",
+  "asof": "2026-10-31",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
@@ -640,7 +640,7 @@
  },
  "next": {
   "date": "2026-11-07",
-  "note": "Q3 2026 results expected Sat 7 Nov 2026 (third-party calendars; ad-hoc-news 27 Oct says 6 Nov, StockAnalysis (29 Oct) shows 10 Nov, some list 2 Nov). Not confirmed by Berkshire.",
+  "note": "Q3 2026 results expected Sat 7 Nov 2026 (third-party calendars; ad-hoc-news 27 Oct says 6 Nov, StockAnalysis (29 Oct) shows 10 Nov, ad-hoc-news (30 Oct) says before the open 6 Nov, some list 2 Nov). Not confirmed by Berkshire: as of 31 Oct its news page has no Q3 release-date notice (it posted one on 5 Aug ahead of the 8 Aug Q2 release).",
   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283"
  },
  "people": [
@@ -649,8 +649,16 @@
    "President & CEO (since 1 Jan 2026)"
   ],
   [
+   "Howard G. Buffett",
+   "Chairman of the Board (elected 18 Sep 2026)"
+  ],
+  [
    "Warren Buffett",
-   "Chairman of the Board"
+   "Chairman Emeritus (since 18 Sep 2026); remains a director"
+  ],
+  [
+   "Susan L. Decker",
+   "Lead Independent Director"
   ],
   [
    "Ajit Jain",
@@ -662,8 +670,8 @@
   ]
  ],
  "people_src": [
-  "Drillr Q3 preview citing Berkshire filings; Japan Times 17 Sep 2026",
-  "https://www.japantimes.co.jp/business/2026/09/17/companies/berkshire-japan-trading-house-boost/"
+  "Berkshire news release 18 Sep 2026 (chair/emeritus/lead director); Drillr Q3 preview citing Berkshire filings (Jain, Johnson)",
+  "https://www.berkshirehathaway.com/news/sep1826.pdf"
  ],
  "youtube": [
   [
@@ -696,6 +704,26 @@
   ]
  ],
  "news": [
+  [
+   "2026-10-30",
+   "Kingswell Berkshire Beat: a NJ bankruptcy judge approved the $535m Whittaker Clark & Daniels talc settlement involving National Indemnity (Berkshire booked a $490m pre-tax charge two years ago; the rest is paid by third parties). Also: Taylor Morrison CEO Sheryl Palmer recalls Abel telling her not to decide for next quarter or even next year; Union Pacific asked to subpoena Berkshire documents and depose Buffett and Abel in the UP-CSX merger case (judge put the requests on hold). Secondary source; the court order was not checked.",
+   "https://www.kingswell.io/p/the-berkshire-beat-october-30-2026"
+  ],
+  [
+   "2026-10-30",
+   "ad-hoc-news: Berkshire expected to report Q3 before the open on 6 Nov (third-party; Berkshire has not announced a date). Recaps DVA trim and Bending Spoons.",
+   "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/berkshire-trims-davita-stake-doubles-down-on-bending-spoons-as-ubs-lifts-target-to-628/70432284"
+  ],
+  [
+   "2026-10-30",
+   "ad-hoc-news: Berkshire Hathaway Travel Protection published its 2027 travel safety report (Canada, New Zealand, Australia top). Not an earnings item.",
+   "https://www.ad-hoc-news.de/boerse/news/unternehmensnachrichten/berkshire-reshuffles-its-portfolio-while-extending-insurance-reach-into-poland/70435170"
+  ],
+  [
+   "2026-09-18",
+   "Berkshire release (catch-up; not new this week): Warren Buffett becomes Chairman Emeritus and remains a director; Howard G. Buffett elected Chairman; Susan Decker stays Lead Independent Director. The leadership table has been corrected.",
+   "https://www.berkshirehathaway.com/news/sep1826.pdf"
+  ],
   [
    "2026-10-29",
    "Bending Spoons: Berkshire closes further $330m private placement (10m shares at $33); total stake ~4% (after $600m at July IPO).",
