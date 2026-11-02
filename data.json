@@ -1184,7 +1184,7 @@
   },
   "summary": [
    "<b>Jul–Oct 2026:</b> ~6 purchases, 2 sales — McCormick (buys 30 Jul, 18 Sep), Salazar (buys 28 Jul ×2, 7 Aug; sale 24 Sep), Khanna (buy 7 Jul $15k–50k), Sessions (sale 15 Oct $15k–50k, filed 27 Oct). Net: small adds; no new large position.",
-   "<b>Jan–Jun 2026:</b> more active — Moran (several Senate buys incl. 27 May and 23 Jun $15k–50k), Armstrong (Senate buy 27 Mar $50k–100k, filed late 21 Jul), Pfluger (buy 13 Mar), Khanna (many buys/sells); sells by Gottheimer (4 May), Menefee (10 Feb, filed late), Cisneros, Alford (16 Mar).",
+   "<b>Jan–Jun 2026:</b> more active — buys by Moran (Senate; 27 May and 23 Jun), Armstrong (Senate, 27 Mar $50k–100k, filed late), Pfluger (13 Mar $15k–50k) and Khanna (27 May); sales by Khanna (2 Jun $50k–100k), Gottheimer (4 May, 2 filings), Cisneros (16 and 25 Mar), Alford (16 Mar), Menefee (10 Feb, filed late) and Tina Smith (partial 27 Jan, then full 31 Mar).",
    "<b>Closed / left:</b> Tina Smith full sale 31 Mar 2026 ($100k–250k). Markwayne Mullin full sale 3 Nov 2025 and left office 23 Mar 2026 (not a current holder)."
   ],
   "latest_filed": "2026-10-27",
@@ -1202,46 +1202,55 @@
     "member": "Richard McCormick",
     "chamber": "House",
     "type": "Purchase",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-09-18",
-    "filed": "n/a",
+    "filed": "2026-10-14",
     "note": ""
    },
    {
     "member": "Maria Elvira Salazar",
     "chamber": "House",
     "type": "Sale",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-09-24",
-    "filed": "n/a",
+    "filed": "2026-10-07",
     "note": ""
    },
    {
     "member": "Maria Elvira Salazar",
     "chamber": "House",
     "type": "Purchase",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-08-07",
-    "filed": "n/a",
+    "filed": "2026-09-09",
     "note": ""
    },
    {
     "member": "Richard McCormick",
     "chamber": "House",
     "type": "Purchase",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-07-30",
-    "filed": "n/a",
+    "filed": "2026-08-14",
     "note": ""
    },
    {
     "member": "Maria Elvira Salazar",
     "chamber": "House",
     "type": "Purchase",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-07-28",
-    "filed": "n/a",
-    "note": "2 purchases same day"
+    "filed": "2026-08-07",
+    "note": ""
+   },
+   {
+    "member": "Maria Elvira Salazar",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "$15,001–$50,000",
+    "traded": "2026-07-28",
+    "filed": "2026-08-07",
+    "note": "same-day second band"
    },
    {
     "member": "Ro Khanna",
@@ -1249,8 +1258,8 @@
     "type": "Purchase",
     "amount": "$15,001–$50,000",
     "traded": "2026-07-07",
-    "filed": "n/a",
-    "note": "Quiver"
+    "filed": "2026-08-07",
+    "note": ""
    },
    {
     "member": "Jerry Moran",
@@ -1258,26 +1267,44 @@
     "type": "Purchase",
     "amount": "$15,001–$50,000",
     "traded": "2026-06-23",
-    "filed": "n/a",
-    "note": "one of several 2026 buys"
+    "filed": "2026-07-21",
+    "note": ""
+   },
+   {
+    "member": "Ro Khanna",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "$50,001–$100,000",
+    "traded": "2026-06-02",
+    "filed": "2026-07-06",
+    "note": ""
    },
    {
     "member": "Jerry Moran",
     "chamber": "Senate",
     "type": "Purchase",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-05-27",
-    "filed": "n/a",
+    "filed": "2026-06-25",
+    "note": "one of several same-day bands"
+   },
+   {
+    "member": "Ro Khanna",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "$15,001–$50,000",
+    "traded": "2026-05-27",
+    "filed": "2026-06-09",
     "note": ""
    },
    {
     "member": "Josh Gottheimer",
     "chamber": "House",
     "type": "Sale",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-05-04",
-    "filed": "n/a",
-    "note": ""
+    "filed": "2026-06-03",
+    "note": "2 sales same day (2 filings)"
    },
    {
     "member": "Tina Smith",
@@ -1285,7 +1312,7 @@
     "type": "Sale (full)",
     "amount": "$100,001–$250,000",
     "traded": "2026-03-31",
-    "filed": "n/a",
+    "filed": "2026-04-02",
     "note": "position closed"
    },
    {
@@ -1295,52 +1322,61 @@
     "amount": "$50,001–$100,000",
     "traded": "2026-03-27",
     "filed": "2026-07-21",
-    "note": "filed late"
+    "note": "filed late (116d)"
+   },
+   {
+    "member": "Gilbert Cisneros",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "$1,001–$15,000",
+    "traded": "2026-03-25",
+    "filed": "2026-04-07",
+    "note": ""
+   },
+   {
+    "member": "Gilbert Cisneros",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "$1,001–$15,000",
+    "traded": "2026-03-16",
+    "filed": "2026-04-07",
+    "note": ""
    },
    {
     "member": "Mark Alford",
     "chamber": "House",
     "type": "Sale",
-    "amount": "n/a",
+    "amount": "$1,001–$15,000",
     "traded": "2026-03-16",
-    "filed": "n/a",
+    "filed": "2026-03-31",
     "note": ""
    },
    {
     "member": "August Pfluger",
     "chamber": "House",
     "type": "Purchase",
-    "amount": "n/a",
+    "amount": "$15,001–$50,000",
     "traded": "2026-03-13",
-    "filed": "n/a",
+    "filed": "2026-04-15",
     "note": ""
    },
    {
     "member": "Christian Menefee",
     "chamber": "House",
     "type": "Sale",
-    "amount": "n/a",
+    "amount": "$15,001–$50,000",
     "traded": "2026-02-10",
-    "filed": "n/a",
-    "note": "filed late"
+    "filed": "2026-06-01",
+    "note": "filed late; spouse/joint also disclosed"
    },
    {
-    "member": "Gilbert Cisneros",
-    "chamber": "House",
-    "type": "Sale",
-    "amount": "n/a",
-    "traded": "2026 H1",
-    "filed": "n/a",
-    "note": "sales"
-   },
-   {
-    "member": "Ro Khanna",
-    "chamber": "House",
-    "type": "Purchase / Sale",
-    "amount": "various",
-    "traded": "2026 H1",
-    "filed": "various",
-    "note": "many trades (Quiver)"
+    "member": "Tina Smith",
+    "chamber": "Senate",
+    "type": "Sale (partial)",
+    "amount": "$100,001–$250,000",
+    "traded": "2026-01-27",
+    "filed": "2026-01-30",
+    "note": ""
    }
   ],
   "sources": [
