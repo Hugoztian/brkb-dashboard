@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-11-02 08:49",
+ "built_sgt": "2026-11-02 09:04",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -618,7 +618,7 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-10-31",
+  "asof": "2026-11-02",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
@@ -640,7 +640,7 @@
  },
  "next": {
   "date": "2026-11-07",
-  "note": "Q3 2026 results expected Sat 7 Nov 2026 (third-party calendars; ad-hoc-news 27 Oct says 6 Nov, StockAnalysis (29 Oct) shows 10 Nov, ad-hoc-news (30 Oct) says before the open 6 Nov, some list 2 Nov). Not confirmed by Berkshire: as of 31 Oct its news page has no Q3 release-date notice (it posted one on 5 Aug ahead of the 8 Aug Q2 release).",
+  "note": "Q3 2026 results expected Sat 7 Nov 2026 (first Saturday of November, Berkshire’s usual pattern; Yahoo also lists 7 Nov). Third-party calendars disagree: Earnings Whispers and ad-hoc-news (1 Nov) say Fri 6 Nov before the open; StockMoguls (31 Oct), TipRanks and TradingView say Mon 2 Nov (TipRanks marks it unconfirmed); StockAnalysis showed 10 Nov. Not confirmed by Berkshire: as of 2 Nov 09:00 SGT its news page has no Q3 release-date notice (it posted one on 5 Aug ahead of the 8 Aug Q2 release).",
   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283"
  },
  "people": [
@@ -704,6 +704,26 @@
   ]
  ],
  "news": [
+  [
+   "2026-11-01",
+   "ad-hoc-news: Berkshire due to report Q3 on Fri 6 Nov (citing Yahoo calendar; Class B EPS est. $6.03). Third-party; date not confirmed by Berkshire.",
+   "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-heads-into-nov-6-results/70442169"
+  ],
+  [
+   "2026-11-01",
+   "Motley Fool (via sharewise): Greg Abel spent another $330m on Bending Spoons; a sign Abel is more open to tech than Buffett was.",
+   "https://www.sharewise.com/us/news_articles/Greg_Abel_Just_Spent_330_Million_on_This_Tech_Stock_Heres_What_It_Means_for_Investors_TheMotleyFool_20261101_1650"
+  ],
+  [
+   "2026-10-31",
+   "CNBC Buffett Watch (Alex Crippen): BRK.B +8.9% in October vs S&P -0.9% and Nasdaq -5.3%; record close $548.56 on 26 Oct and record intraday high $550.47 on 30 Oct. Alphabet fell almost 13% on 29 Oct after Q3 (FCF -$9.1bn); Berkshire's stake (30 Jun share count) is down to $29.6bn from a Q3 high of $40bn, now its 4th-largest holding; Coca-Cola moves to 3rd ($37.6bn). DaVita trim is under the 2024 45%-cap agreement.",
+   "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html"
+  ],
+  [
+   "2026-10-31",
+   "StockMoguls: expects Q3 before the open Mon 2 Nov (est. revenue $97.3bn, op. EPS $5.91/B). Third-party; contradicts other calendars.",
+   "https://www.stockmoguls.com/2026/10/31/berkshires-365-billion-is-earning-real-money-monday-shows-whether-abel-spends-more-of-it/"
+  ],
   [
    "2026-10-30",
    "Kingswell Berkshire Beat: a NJ bankruptcy judge approved the $535m Whittaker Clark & Daniels talc settlement involving National Indemnity (Berkshire booked a $490m pre-tax charge two years ago; the rest is paid by third parties). Also: Taylor Morrison CEO Sheryl Palmer recalls Abel telling her not to decide for next quarter or even next year; Union Pacific asked to subpoena Berkshire documents and depose Buffett and Abel in the UP-CSX merger case (judge put the requests on hold). Secondary source; the court order was not checked.",
@@ -797,6 +817,24 @@
  ],
  "whatsNewThisWeek": [
   {
+   "date": "2026-11-01",
+   "headline": "Q3 2026 results date still unconfirmed; calendars say 2, 6 or 7 Nov",
+   "detail": "Berkshire has posted no release-date notice (as of 2 Nov 09:00 SGT). Earnings Whispers/ad-hoc-news: 6 Nov pre-open; Yahoo: 7 Nov; StockMoguls/TipRanks: 2 Nov. Street op. EPS est. ~$5.91 per B share (Zacks). Third-party.",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-heads-into-nov-6-results/70442169"
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "BRK.B ends October up 8.9% as Nasdaq falls 5.3%",
+   "detail": "CNBC Buffett Watch: record close $548.56 (26 Oct) and record intraday $550.47 (30 Oct); week roughly flat.",
+   "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html"
+  },
+  {
+   "date": "2026-10-31",
+   "headline": "Alphabet plunge cuts Berkshire stake to ~$29.6bn",
+   "detail": "CNBC: GOOGL fell almost 13% on 29 Oct after Q3; stake (30 Jun share count) is down from a $40bn Q3 high and is now Berkshire's 4th-largest holding; Coca-Cola moves to 3rd.",
+   "url": "https://www.cnbc.com/2026/10/31/berkshire-ekes-out-some-new-highs-but-october-rally-stalls.html"
+  },
+  {
    "date": "2026-10-31",
    "headline": "Leadership table corrected: Howard G. Buffett is Chairman",
    "detail": "Per Berkshire release of 18 Sep 2026: Warren Buffett is Chairman Emeritus and remains a director; Susan Decker stays Lead Independent Director. Correction on this dashboard, not new company news.",
@@ -807,12 +845,6 @@
    "headline": "Court approves $535m Whittaker Clark & Daniels talc settlement involving National Indemnity",
    "detail": "Third-party (Kingswell Berkshire Beat); Berkshire booked a $490m pre-tax charge two years ago. Court order not checked.",
    "url": "https://www.kingswell.io/p/the-berkshire-beat-october-30-2026"
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Q3 2026 results date not yet announced by Berkshire",
-   "detail": "Third-party calendars say 6 or 7 Nov (some 10 Nov); Berkshire news page has no notice as of 31 Oct.",
-   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283"
   },
   {
    "date": "2026-10-29",
