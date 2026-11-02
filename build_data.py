@@ -54,6 +54,34 @@ WN=[
 ]
 _b=datetime.datetime.strptime(D['built_sgt'][:10],'%Y-%m-%d')
 D['whatsNewThisWeek']=sorted([w for w in WN if 0<=(_b-datetime.datetime.strptime(w['date'],'%Y-%m-%d')).days<=7],key=lambda w:w['date'],reverse=True)
+# Lawmakers (U.S. Congress) BRK.B: estimated holdings (GetSignal) + STOCK Act PTR trades (Quiver/Capitol Reports/MarketCast). Third-party aggregators of House Clerk / Senate eFD; ranges only.
+H=[('J. French Hill','R','House','$1,000,001–$5,000,000'),('Katherine M. Clark','D','House','$500,001–$1,000,000'),('Steve Cohen','D','House','$500,001–$1,000,000'),('Eleanor Holmes Norton','D','House','$250,001–$500,000'),('Kathy Castor','D','House','$250,001–$500,000'),('Jerry Moran','R','Senate','$100,001–$250,000'),('Shri Thanedar','D','House','$100,001–$250,000'),('Gilbert Ray Cisneros, Jr.','D','House','$100,001–$250,000'),('August Pfluger','R','House','$100,001–$250,000'),('Jared Moskowitz','D','House','$50,001–$100,000'),('Deborah K. Ross','D','House','$50,001–$100,000'),('Lloyd Doggett','D','House','$50,001–$100,000'),('Robert C. "Bobby" Scott','D','House','$50,001–$100,000'),('Katie Boyd Britt','R','Senate','$50,001–$100,000'),('Lucy McBath','D','House','$50,001–$100,000'),('Maria Elvira Salazar','R','House','$15,001–$50,000'),('Glenn Ivey','D','House','$15,001–$50,000'),('Julie Johnson','D','House','$15,001–$50,000'),('Tim Moore','R','House','$15,001–$50,000'),('David Kustoff','R','House','$15,001–$50,000'),('Richard McCormick','R','House','$15,001–$50,000'),('Josh Gottheimer','D','House','$15,001–$50,000'),('David Rouzer','R','House','$1,001–$15,000'),('Pete Sessions','R','House','$1,001–$15,000')]
+T=[('Pete Sessions','House','Sale','$15,001–$50,000','2026-10-15','2026-10-27','latest filing'),
+('Richard McCormick','House','Purchase','n/a','2026-09-18','n/a',''),
+('Maria Elvira Salazar','House','Sale','n/a','2026-09-24','n/a',''),
+('Maria Elvira Salazar','House','Purchase','n/a','2026-08-07','n/a',''),
+('Richard McCormick','House','Purchase','n/a','2026-07-30','n/a',''),
+('Maria Elvira Salazar','House','Purchase','n/a','2026-07-28','n/a','2 purchases same day'),
+('Ro Khanna','House','Purchase','$15,001–$50,000','2026-07-07','n/a','Quiver'),
+('Jerry Moran','Senate','Purchase','$15,001–$50,000','2026-06-23','n/a','one of several 2026 buys'),
+('Jerry Moran','Senate','Purchase','n/a','2026-05-27','n/a',''),
+('Josh Gottheimer','House','Sale','n/a','2026-05-04','n/a',''),
+('Tina Smith','Senate','Sale (full)','$100,001–$250,000','2026-03-31','n/a','position closed'),
+('Alan Armstrong','Senate','Purchase','$50,001–$100,000','2026-03-27','2026-07-21','filed late'),
+('Mark Alford','House','Sale','n/a','2026-03-16','n/a',''),
+('August Pfluger','House','Purchase','n/a','2026-03-13','n/a',''),
+('Christian Menefee','House','Sale','n/a','2026-02-10','n/a','filed late'),
+('Gilbert Cisneros','House','Sale','n/a','2026 H1','n/a','sales'),
+('Ro Khanna','House','Purchase / Sale','various','2026 H1','various','many trades (Quiver)')]
+D['lawmakers']={'ticker':'BRK.B','asof':'2026-11-03',
+ 'holdings':{'asof':'2026-10-31','source':'GetSignal (estimates from STOCK Act / annual disclosures; bands, not exact)','url':'https://getsignal.finance/stocks/brk-b','count':len(H),'members':[{'name':n,'party':p,'chamber':c,'band':b} for n,p,c,b in H]},
+ 'periods':{'latest':'Jul–Oct 2026 (trade date)','prior':'Jan–Jun 2026 (trade date)'},
+ 'summary':['<b>Jul–Oct 2026:</b> ~6 purchases, 2 sales — McCormick (buys 30 Jul, 18 Sep), Salazar (buys 28 Jul ×2, 7 Aug; sale 24 Sep), Khanna (buy 7 Jul $15k–50k), Sessions (sale 15 Oct $15k–50k, filed 27 Oct). Net: small adds; no new large position.',
+  '<b>Jan–Jun 2026:</b> more active — Moran (several Senate buys incl. 27 May and 23 Jun $15k–50k), Armstrong (Senate buy 27 Mar $50k–100k, filed late 21 Jul), Pfluger (buy 13 Mar), Khanna (many buys/sells); sells by Gottheimer (4 May), Menefee (10 Feb, filed late), Cisneros, Alford (16 Mar).',
+  '<b>Closed / left:</b> Tina Smith full sale 31 Mar 2026 ($100k–250k). Markwayne Mullin full sale 3 Nov 2025 and left office 23 Mar 2026 (not a current holder).'],
+ 'latest_filed':'2026-10-27',
+ 'trades':[dict(zip(['member','chamber','type','amount','traded','filed','note'],t)) for t in T],
+ 'sources':[['Quiver Quantitative (checked 3 Nov 2026)','https://www.quiverquant.com/congresstrading/stock/BRK.B'],['Capitol Reports (396 trades as of 2 Nov 2026)','https://www.capitolreports.com/ticker/BRK.B'],['MarketCast (House filings to ~28 Oct 2026; Senate collection stalled after ~1 Oct 2026)','https://www.marketcast.co/congress-trades/brk-b.html'],['House Clerk (official)','https://disclosures-clerk.house.gov/FinancialDisclosure'],['Senate eFD (official)','https://efdsearch.senate.gov/']]}
 import urllib.request
 req=urllib.request.Request('https://data.sec.gov/submissions/CIK0001067983.json',headers={'User-Agent':'Hugo Tian research hugo@example.com'})
 s=json.load(urllib.request.urlopen(req))['filings']['recent'];F=[]

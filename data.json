@@ -1022,5 +1022,348 @@
    "",
    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277630/d21990ds8pos.htm"
   ]
- ]
+ ],
+ "lawmakers": {
+  "ticker": "BRK.B",
+  "asof": "2026-11-03",
+  "holdings": {
+   "asof": "2026-10-31",
+   "source": "GetSignal (estimates from STOCK Act / annual disclosures; bands, not exact)",
+   "url": "https://getsignal.finance/stocks/brk-b",
+   "count": 24,
+   "members": [
+    {
+     "name": "J. French Hill",
+     "party": "R",
+     "chamber": "House",
+     "band": "$1,000,001–$5,000,000"
+    },
+    {
+     "name": "Katherine M. Clark",
+     "party": "D",
+     "chamber": "House",
+     "band": "$500,001–$1,000,000"
+    },
+    {
+     "name": "Steve Cohen",
+     "party": "D",
+     "chamber": "House",
+     "band": "$500,001–$1,000,000"
+    },
+    {
+     "name": "Eleanor Holmes Norton",
+     "party": "D",
+     "chamber": "House",
+     "band": "$250,001–$500,000"
+    },
+    {
+     "name": "Kathy Castor",
+     "party": "D",
+     "chamber": "House",
+     "band": "$250,001–$500,000"
+    },
+    {
+     "name": "Jerry Moran",
+     "party": "R",
+     "chamber": "Senate",
+     "band": "$100,001–$250,000"
+    },
+    {
+     "name": "Shri Thanedar",
+     "party": "D",
+     "chamber": "House",
+     "band": "$100,001–$250,000"
+    },
+    {
+     "name": "Gilbert Ray Cisneros, Jr.",
+     "party": "D",
+     "chamber": "House",
+     "band": "$100,001–$250,000"
+    },
+    {
+     "name": "August Pfluger",
+     "party": "R",
+     "chamber": "House",
+     "band": "$100,001–$250,000"
+    },
+    {
+     "name": "Jared Moskowitz",
+     "party": "D",
+     "chamber": "House",
+     "band": "$50,001–$100,000"
+    },
+    {
+     "name": "Deborah K. Ross",
+     "party": "D",
+     "chamber": "House",
+     "band": "$50,001–$100,000"
+    },
+    {
+     "name": "Lloyd Doggett",
+     "party": "D",
+     "chamber": "House",
+     "band": "$50,001–$100,000"
+    },
+    {
+     "name": "Robert C. \"Bobby\" Scott",
+     "party": "D",
+     "chamber": "House",
+     "band": "$50,001–$100,000"
+    },
+    {
+     "name": "Katie Boyd Britt",
+     "party": "R",
+     "chamber": "Senate",
+     "band": "$50,001–$100,000"
+    },
+    {
+     "name": "Lucy McBath",
+     "party": "D",
+     "chamber": "House",
+     "band": "$50,001–$100,000"
+    },
+    {
+     "name": "Maria Elvira Salazar",
+     "party": "R",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "Glenn Ivey",
+     "party": "D",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "Julie Johnson",
+     "party": "D",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "Tim Moore",
+     "party": "R",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "David Kustoff",
+     "party": "R",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "Richard McCormick",
+     "party": "R",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "Josh Gottheimer",
+     "party": "D",
+     "chamber": "House",
+     "band": "$15,001–$50,000"
+    },
+    {
+     "name": "David Rouzer",
+     "party": "R",
+     "chamber": "House",
+     "band": "$1,001–$15,000"
+    },
+    {
+     "name": "Pete Sessions",
+     "party": "R",
+     "chamber": "House",
+     "band": "$1,001–$15,000"
+    }
+   ]
+  },
+  "periods": {
+   "latest": "Jul–Oct 2026 (trade date)",
+   "prior": "Jan–Jun 2026 (trade date)"
+  },
+  "summary": [
+   "<b>Jul–Oct 2026:</b> ~6 purchases, 2 sales — McCormick (buys 30 Jul, 18 Sep), Salazar (buys 28 Jul ×2, 7 Aug; sale 24 Sep), Khanna (buy 7 Jul $15k–50k), Sessions (sale 15 Oct $15k–50k, filed 27 Oct). Net: small adds; no new large position.",
+   "<b>Jan–Jun 2026:</b> more active — Moran (several Senate buys incl. 27 May and 23 Jun $15k–50k), Armstrong (Senate buy 27 Mar $50k–100k, filed late 21 Jul), Pfluger (buy 13 Mar), Khanna (many buys/sells); sells by Gottheimer (4 May), Menefee (10 Feb, filed late), Cisneros, Alford (16 Mar).",
+   "<b>Closed / left:</b> Tina Smith full sale 31 Mar 2026 ($100k–250k). Markwayne Mullin full sale 3 Nov 2025 and left office 23 Mar 2026 (not a current holder)."
+  ],
+  "latest_filed": "2026-10-27",
+  "trades": [
+   {
+    "member": "Pete Sessions",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "$15,001–$50,000",
+    "traded": "2026-10-15",
+    "filed": "2026-10-27",
+    "note": "latest filing"
+   },
+   {
+    "member": "Richard McCormick",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "n/a",
+    "traded": "2026-09-18",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Maria Elvira Salazar",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "n/a",
+    "traded": "2026-09-24",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Maria Elvira Salazar",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "n/a",
+    "traded": "2026-08-07",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Richard McCormick",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "n/a",
+    "traded": "2026-07-30",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Maria Elvira Salazar",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "n/a",
+    "traded": "2026-07-28",
+    "filed": "n/a",
+    "note": "2 purchases same day"
+   },
+   {
+    "member": "Ro Khanna",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "$15,001–$50,000",
+    "traded": "2026-07-07",
+    "filed": "n/a",
+    "note": "Quiver"
+   },
+   {
+    "member": "Jerry Moran",
+    "chamber": "Senate",
+    "type": "Purchase",
+    "amount": "$15,001–$50,000",
+    "traded": "2026-06-23",
+    "filed": "n/a",
+    "note": "one of several 2026 buys"
+   },
+   {
+    "member": "Jerry Moran",
+    "chamber": "Senate",
+    "type": "Purchase",
+    "amount": "n/a",
+    "traded": "2026-05-27",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Josh Gottheimer",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "n/a",
+    "traded": "2026-05-04",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Tina Smith",
+    "chamber": "Senate",
+    "type": "Sale (full)",
+    "amount": "$100,001–$250,000",
+    "traded": "2026-03-31",
+    "filed": "n/a",
+    "note": "position closed"
+   },
+   {
+    "member": "Alan Armstrong",
+    "chamber": "Senate",
+    "type": "Purchase",
+    "amount": "$50,001–$100,000",
+    "traded": "2026-03-27",
+    "filed": "2026-07-21",
+    "note": "filed late"
+   },
+   {
+    "member": "Mark Alford",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "n/a",
+    "traded": "2026-03-16",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "August Pfluger",
+    "chamber": "House",
+    "type": "Purchase",
+    "amount": "n/a",
+    "traded": "2026-03-13",
+    "filed": "n/a",
+    "note": ""
+   },
+   {
+    "member": "Christian Menefee",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "n/a",
+    "traded": "2026-02-10",
+    "filed": "n/a",
+    "note": "filed late"
+   },
+   {
+    "member": "Gilbert Cisneros",
+    "chamber": "House",
+    "type": "Sale",
+    "amount": "n/a",
+    "traded": "2026 H1",
+    "filed": "n/a",
+    "note": "sales"
+   },
+   {
+    "member": "Ro Khanna",
+    "chamber": "House",
+    "type": "Purchase / Sale",
+    "amount": "various",
+    "traded": "2026 H1",
+    "filed": "various",
+    "note": "many trades (Quiver)"
+   }
+  ],
+  "sources": [
+   [
+    "Quiver Quantitative (checked 3 Nov 2026)",
+    "https://www.quiverquant.com/congresstrading/stock/BRK.B"
+   ],
+   [
+    "Capitol Reports (396 trades as of 2 Nov 2026)",
+    "https://www.capitolreports.com/ticker/BRK.B"
+   ],
+   [
+    "MarketCast (House filings to ~28 Oct 2026; Senate collection stalled after ~1 Oct 2026)",
+    "https://www.marketcast.co/congress-trades/brk-b.html"
+   ],
+   [
+    "House Clerk (official)",
+    "https://disclosures-clerk.house.gov/FinancialDisclosure"
+   ],
+   [
+    "Senate eFD (official)",
+    "https://efdsearch.senate.gov/"
+   ]
+  ]
+ }
 }

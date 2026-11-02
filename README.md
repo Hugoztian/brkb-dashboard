@@ -27,3 +27,6 @@ No token and no wrangler needed. After this, every push to `main` auto-deploys.
 
 ## Daily scan: What's new this week
 Each Mon–Sat scan must add new items to `WN` in build_data.py; the build exports `whatsNewThisWeek` ({date, headline, detail?, url?}, last 7 days, newest first) to data.js/data.json for the Overview card and master-dashboard aggregation.
+
+## Lawmakers (U.S. Congress)
+Portfolio page card after Japanese trading houses: BRK.B estimated holdings by current members (GetSignal bands) plus STOCK Act trades, latest period vs prior (Quiver / Capitol Reports / MarketCast, linking House Clerk and Senate eFD). Data lives in `D.lawmakers` (build_data.py); ranges only, third-party labelled.
