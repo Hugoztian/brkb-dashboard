@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-10-31 09:10",
+ "built_sgt": "2026-11-02 08:49",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -794,6 +794,50 @@
    "CNBC: Berkshire rally to highest since Buffett retirement announcement.",
    "https://www.cnbc.com/2026/10/17/berkshire-rally-to-highest-since-buffett-announcement.html"
   ]
+ ],
+ "whatsNewThisWeek": [
+  {
+   "date": "2026-10-31",
+   "headline": "Leadership table corrected: Howard G. Buffett is Chairman",
+   "detail": "Per Berkshire release of 18 Sep 2026: Warren Buffett is Chairman Emeritus and remains a director; Susan Decker stays Lead Independent Director. Correction on this dashboard, not new company news.",
+   "url": "https://www.berkshirehathaway.com/news/sep1826.pdf"
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Court approves $535m Whittaker Clark & Daniels talc settlement involving National Indemnity",
+   "detail": "Third-party (Kingswell Berkshire Beat); Berkshire booked a $490m pre-tax charge two years ago. Court order not checked.",
+   "url": "https://www.kingswell.io/p/the-berkshire-beat-october-30-2026"
+  },
+  {
+   "date": "2026-10-30",
+   "headline": "Q3 2026 results date not yet announced by Berkshire",
+   "detail": "Third-party calendars say 6 or 7 Nov (some 10 Nov); Berkshire news page has no notice as of 31 Oct.",
+   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283"
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "SEC Form 4: Berkshire sold 382,563 DaVita shares on 27 Oct",
+   "detail": "~$180.43/share (~$69m); 28,314,666 DVA shares held after.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526438090/"
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Bending Spoons: Berkshire closes further $330m private placement",
+   "detail": "10m shares at $33; total stake ~4% (after $600m at the July IPO). Source: Bending Spoons investor newsroom.",
+   "url": "https://investors.bendingspoons.com/newsroom/berkshire-completes-bending-spoons-investment"
+  },
+  {
+   "date": "2026-10-29",
+   "headline": "Barron's: Berkshire is hot again. Is it still a bargain?",
+   "detail": "Third-party commentary: record high, up ~8% in a month.",
+   "url": "https://www.realclearmarkets.com/2026/10/29/berkshire_hathaway_stock_is_hot_again_is_it_still_a_bargain_1214045.html"
+  },
+  {
+   "date": "2026-10-26",
+   "headline": "BRK.B hits all-time high ($549.96 intraday)",
+   "detail": "Third-party (Seeking Alpha): RSI most overbought since 2024.",
+   "url": "https://seekingalpha.com/news/4657139-berkshire-hathaway-hits-all-time-high-as-rsi-flashes-most-overbought-signal-since-2024"
+  }
  ],
  "filings": [
   [

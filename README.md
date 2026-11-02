@@ -24,3 +24,6 @@ No token and no wrangler needed. After this, every push to `main` auto-deploys.
 ## Data and KPI reuse
 - `python3 build_data.py` rebuilds `data.js`. Figures come from the Q2 2026 10-Q and the 30 Jun 2026 13F, with balance-sheet integrity asserts.
 - Real-time BV per B share in Node: `node -e "const C=require('./calc.js'),D=require('./data.json');console.log(C.liveBV(D,{AAPL:347.73},{eqmAtMarket:false}))"`. The page's "Copy KPI JSON" button exports the same snapshot.
+
+## Daily scan: What's new this week
+Each Mon–Sat scan must add new items to `WN` in build_data.py; the build exports `whatsNewThisWeek` ({date, headline, detail?, url?}, last 7 days, newest first) to data.js/data.json for the Overview card and master-dashboard aggregation.
