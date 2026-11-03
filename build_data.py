@@ -78,6 +78,8 @@ T=[('Pete Sessions', 'House', 'Sale', '$15,001–$50,000', '2026-10-15', '2026-1
 ('August Pfluger', 'House', 'Purchase', '$15,001–$50,000', '2026-03-13', '2026-04-15', ''),
 ('Christian Menefee', 'House', 'Sale', '$15,001–$50,000', '2026-02-10', '2026-06-01', 'filed late; spouse/joint also disclosed'),
 ('Tina Smith', 'Senate', 'Sale (partial)', '$100,001–$250,000', '2026-01-27', '2026-01-30', '')]
+# Coming up: future catalysts, soonest first {date,event,detail?,url?}. Label third-party calendars.
+D['comingUp']=[{"date": "6–7 Nov 2026 (unconfirmed)", "event": "Q3 2026 results & 10-Q", "detail": "Berkshire has not announced a date; no SEC filing yet as of 3 Nov. Third-party calendars: Yahoo Finance Sat 7 Nov; Earnings Whispers 6 Nov."}]
 D['lawmakers']={'ticker':'BRK.B','asof':'2026-11-03',
  'holdings':{'asof':'2026-10-31','source':'GetSignal (estimates from STOCK Act / annual disclosures; bands, not exact)','url':'https://getsignal.finance/stocks/brk-b','count':len(H),'members':[{'name':n,'party':p,'chamber':c,'band':b} for n,p,c,b in H]},
  'periods':{'latest':'Jul–Oct 2026 (trade date)','prior':'Jan–Jun 2026 (trade date)'},
