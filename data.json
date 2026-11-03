@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-11-02 09:04",
+ "built_sgt": "2026-11-03 09:12",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -618,7 +618,7 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-11-02",
+  "asof": "2026-11-03",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
@@ -704,6 +704,16 @@
   ]
  ],
  "news": [
+  [
+   "2026-11-02",
+   "Zacks: BRK.B +2.51% to a record close of $556.11 on Mon 2 Nov while the S&P 500 fell 0.51% and Nasdaq 1.07%; BRK.A closed $834,641 (+2.33%). Q3 EPS est. $5.91 per B share.",
+   "https://nz.finance.yahoo.com/news/berkshire-hathaway-b-brk-b-214502799.html"
+  ],
+  [
+   "2026-11-02",
+   "Investing.com preview: Q3 expected Mon 2 Nov (BNSF margins, BHE vs weaker underwriting in focus). No release was posted by Berkshire or filed with the SEC on 2 Nov; Yahoo still lists 7 Nov. Third-party.",
+   "https://www.investing.com/news/earnings/berkshire-earnings-on-deck-abels-railroad-bets-under-scrutiny-monday-93CH-4990556"
+  ],
   [
    "2026-11-01",
    "ad-hoc-news: Berkshire due to report Q3 on Fri 6 Nov (citing Yahoo calendar; Class B EPS est. $6.03). Third-party; date not confirmed by Berkshire.",
@@ -817,10 +827,16 @@
  ],
  "whatsNewThisWeek": [
   {
-   "date": "2026-11-01",
-   "headline": "Q3 2026 results date still unconfirmed; calendars say 2, 6 or 7 Nov",
-   "detail": "Berkshire has posted no release-date notice (as of 2 Nov 09:00 SGT). Earnings Whispers/ad-hoc-news: 6 Nov pre-open; Yahoo: 7 Nov; StockMoguls/TipRanks: 2 Nov. Street op. EPS est. ~$5.91 per B share (Zacks). Third-party.",
-   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-heads-into-nov-6-results/70442169"
+   "date": "2026-11-02",
+   "headline": "BRK.B jumps 2.5% to a record close of $556.11",
+   "detail": "Mon 2 Nov: up 2.51% while the S&P 500 fell 0.51% and the Nasdaq 1.07% (Zacks); BRK.A closed $834,641. Rotation out of AI/tech continues; no company news behind the move.",
+   "url": "https://nz.finance.yahoo.com/news/berkshire-hathaway-b-brk-b-214502799.html"
+  },
+  {
+   "date": "2026-11-02",
+   "headline": "Q3 2026 results still not out; release date unconfirmed",
+   "detail": "Some calendars (TipRanks, Investing.com) expected Mon 2 Nov, but Berkshire posted no release and filed nothing with the SEC (checked 3 Nov 09:15 SGT). Yahoo lists Sat 7 Nov; Earnings Whispers 6 Nov. Street op. EPS est. ~$5.91 per B share (Zacks). Third-party.",
+   "url": "https://www.berkshirehathaway.com/news/2026news.html"
   },
   {
    "date": "2026-10-31",
@@ -863,165 +879,7 @@
    "headline": "Barron's: Berkshire is hot again. Is it still a bargain?",
    "detail": "Third-party commentary: record high, up ~8% in a month.",
    "url": "https://www.realclearmarkets.com/2026/10/29/berkshire_hathaway_stock_is_hot_again_is_it_still_a_bargain_1214045.html"
-  },
-  {
-   "date": "2026-10-26",
-   "headline": "BRK.B hits all-time high ($549.96 intraday)",
-   "detail": "Third-party (Seeking Alpha): RSI most overbought since 2024.",
-   "url": "https://seekingalpha.com/news/4657139-berkshire-hathaway-hits-all-time-high-as-rsi-flashes-most-overbought-signal-since-2024"
   }
- ],
- "filings": [
-  [
-   "2026-10-29",
-   "4",
-   "2026-10-27",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526438090/"
-  ],
-  [
-   "2026-10-23",
-   "4",
-   "2026-10-21",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000005/"
-  ],
-  [
-   "2026-10-07",
-   "SCHEDULE 13G/A",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526417254/"
-  ],
-  [
-   "2026-10-05",
-   "4",
-   "2026-10-01",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
-  ],
-  [
-   "2026-09-30",
-   "4",
-   "2026-09-28",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
-  ],
-  [
-   "2026-09-29",
-   "4",
-   "2026-09-28",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000004/"
-  ],
-  [
-   "2026-09-25",
-   "4",
-   "2026-09-23",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
-  ],
-  [
-   "2026-09-25",
-   "SD",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526402798/d44118dsd.htm"
-  ],
-  [
-   "2026-09-21",
-   "4",
-   "2026-09-17",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
-  ],
-  [
-   "2026-09-21",
-   "3",
-   "2026-09-17",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397052/"
-  ],
-  [
-   "2026-09-04",
-   "4",
-   "2026-09-03",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000003/"
-  ],
-  [
-   "2026-08-14",
-   "SCHEDULE 13G/A",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352910/"
-  ],
-  [
-   "2026-08-14",
-   "SCHEDULE 13G",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352904/"
-  ],
-  [
-   "2026-08-14",
-   "13F-HR",
-   "2026-06-30",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/"
-  ],
-  [
-   "2026-08-13",
-   "4",
-   "2026-08-12",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
-  ],
-  [
-   "2026-08-13",
-   "4",
-   "2026-08-12",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349555/"
-  ],
-  [
-   "2026-08-11",
-   "8-K",
-   "2026-08-08",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm"
-  ],
-  [
-   "2026-08-10",
-   "10-Q",
-   "2026-06-30",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm"
-  ],
-  [
-   "2026-08-04",
-   "4",
-   "2026-07-31",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526333151/"
-  ],
-  [
-   "2026-07-15",
-   "4",
-   "2026-07-14",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
-  ],
-  [
-   "2026-07-15",
-   "SCHEDULE 13D/A",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304838/"
-  ],
-  [
-   "2026-07-02",
-   "4",
-   "2026-07-01",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000002/"
-  ],
-  [
-   "2026-06-25",
-   "11-K",
-   "2025-12-31",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526282257/brka-20251231.htm"
-  ],
-  [
-   "2026-06-22",
-   "S-8 POS",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277638/d22632ds8pos.htm"
-  ],
-  [
-   "2026-06-22",
-   "S-8 POS",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277630/d21990ds8pos.htm"
-  ]
  ],
  "lawmakers": {
   "ticker": "BRK.B",
@@ -1401,5 +1259,157 @@
     "https://efdsearch.senate.gov/"
    ]
   ]
- }
+ },
+ "filings": [
+  [
+   "2026-10-29",
+   "4",
+   "2026-10-27",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526438090/"
+  ],
+  [
+   "2026-10-23",
+   "4",
+   "2026-10-21",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000005/"
+  ],
+  [
+   "2026-10-07",
+   "SCHEDULE 13G/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526417254/"
+  ],
+  [
+   "2026-10-05",
+   "4",
+   "2026-10-01",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526414744/"
+  ],
+  [
+   "2026-09-30",
+   "4",
+   "2026-09-28",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526409451/"
+  ],
+  [
+   "2026-09-29",
+   "4",
+   "2026-09-28",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000004/"
+  ],
+  [
+   "2026-09-25",
+   "4",
+   "2026-09-23",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526403089/"
+  ],
+  [
+   "2026-09-25",
+   "SD",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526402798/d44118dsd.htm"
+  ],
+  [
+   "2026-09-21",
+   "4",
+   "2026-09-17",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
+  ],
+  [
+   "2026-09-21",
+   "3",
+   "2026-09-17",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397052/"
+  ],
+  [
+   "2026-09-04",
+   "4",
+   "2026-09-03",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000003/"
+  ],
+  [
+   "2026-08-14",
+   "SCHEDULE 13G/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352910/"
+  ],
+  [
+   "2026-08-14",
+   "SCHEDULE 13G",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352904/"
+  ],
+  [
+   "2026-08-14",
+   "13F-HR",
+   "2026-06-30",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/"
+  ],
+  [
+   "2026-08-13",
+   "4",
+   "2026-08-12",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
+  ],
+  [
+   "2026-08-13",
+   "4",
+   "2026-08-12",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349555/"
+  ],
+  [
+   "2026-08-11",
+   "8-K",
+   "2026-08-08",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm"
+  ],
+  [
+   "2026-08-10",
+   "10-Q",
+   "2026-06-30",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526341032/brka-20260630.htm"
+  ],
+  [
+   "2026-08-04",
+   "4",
+   "2026-07-31",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526333151/"
+  ],
+  [
+   "2026-07-15",
+   "4",
+   "2026-07-14",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304843/"
+  ],
+  [
+   "2026-07-15",
+   "SCHEDULE 13D/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304838/"
+  ],
+  [
+   "2026-07-02",
+   "4",
+   "2026-07-01",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000002/"
+  ],
+  [
+   "2026-06-25",
+   "11-K",
+   "2025-12-31",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526282257/brka-20251231.htm"
+  ],
+  [
+   "2026-06-22",
+   "S-8 POS",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277638/d22632ds8pos.htm"
+  ],
+  [
+   "2026-06-22",
+   "S-8 POS",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277630/d21990ds8pos.htm"
+  ]
+ ]
 }
