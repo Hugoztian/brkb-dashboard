@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-11-03 09:12",
+ "built_sgt": "2026-11-04 09:09",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -618,7 +618,7 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-11-03",
+  "asof": "2026-11-04",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
@@ -640,7 +640,7 @@
  },
  "next": {
   "date": "2026-11-07",
-  "note": "Q3 2026 results expected Sat 7 Nov 2026 (first Saturday of November, Berkshire’s usual pattern; Yahoo also lists 7 Nov). Third-party calendars disagree: Earnings Whispers and ad-hoc-news (1 Nov) say Fri 6 Nov before the open; StockMoguls (31 Oct), TipRanks and TradingView say Mon 2 Nov (TipRanks marks it unconfirmed); StockAnalysis showed 10 Nov. Not confirmed by Berkshire: as of 2 Nov 09:00 SGT its news page has no Q3 release-date notice (it posted one on 5 Aug ahead of the 8 Aug Q2 release).",
+  "note": "Q3 2026 results expected Sat 7 Nov 2026 (first Saturday of November, Berkshire’s usual pattern; Yahoo also lists 7 Nov). Third-party calendars disagree: Earnings Whispers and ad-hoc-news (1 Nov) say Fri 6 Nov before the open; StockMoguls (31 Oct), TipRanks and TradingView say Mon 2 Nov (TipRanks marks it unconfirmed); StockAnalysis showed 10 Nov. Morningstar (3 Nov) also says Sat 7 Nov. Not confirmed by Berkshire: as of 4 Nov 09:10 SGT its news page has no Q3 release-date notice (it posted one on 5 Aug ahead of the 8 Aug Q2 release).",
   "url": "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-results-are-due-november-7-2026-for-berkshire-hathaway-stock/70363283"
  },
  "people": [
@@ -704,6 +704,21 @@
   ]
  ],
  "news": [
+  [
+   "2026-11-03",
+   "Morningstar (Greggory Warren, CFA) Q3 preview: results expected Sat 7 Nov; fair value $510 per B share ($765,000 per A), 2 stars (moderately overvalued, ~10% premium), narrow moat. Expects Q3 operating earnings up mid-to-high single digits YoY despite weaker underwriting; GEICO and BHRG earned-premium growth slowing; BNSF volume growth; seasonally strong BHE. Third-party estimate.",
+   "https://www.morningstar.com/stocks/berkshire-hathaway-shares-are-up-11-this-year-is-stock-buy-ahead-earnings"
+  ],
+  [
+   "2026-11-03",
+   "ad-hoc-news (citing Zacks via Yahoo): Q3 due Fri 6 Nov; revenue est. $97.3bn (+2.5%), EPS est. $5.91 per B share (-5.6%), consensus up 4.4% in 30 days. Third-party; date not confirmed by Berkshire.",
+   "https://www.ad-hoc-news.de/boerse/news/corporate-news/berkshire-hathaway-stock-heads-into-results-with-insurance-in-focus/70450098"
+  ],
+  [
+   "2026-11-03",
+   "BRK.B closed $557.07 (+0.17%) on Tue 3 Nov, a fresh record close (StockAnalysis); BRK.A $835,070 (Micron Worker, -0.16%).",
+   "https://stockanalysis.com/stocks/brk.b/forecast/"
+  ],
   [
    "2026-11-02",
    "Zacks: BRK.B +2.51% to a record close of $556.11 on Mon 2 Nov while the S&P 500 fell 0.51% and Nasdaq 1.07%; BRK.A closed $834,641 (+2.33%). Q3 EPS est. $5.91 per B share.",
@@ -827,6 +842,18 @@
  ],
  "whatsNewThisWeek": [
   {
+   "date": "2026-11-03",
+   "headline": "Morningstar: fair value $510 per B share; Q3 out Sat 7 Nov",
+   "detail": "Morningstar Q3 preview (Greggory Warren): 2 stars, shares ~10% above fair value; expects operating earnings up mid-to-high single digits despite weaker insurance underwriting, with BNSF and BHE offsetting. Third-party estimate.",
+   "url": "https://www.morningstar.com/stocks/berkshire-hathaway-shares-are-up-11-this-year-is-stock-buy-ahead-earnings"
+  },
+  {
+   "date": "2026-11-03",
+   "headline": "BRK.B edges up to another record close, $557.07",
+   "detail": "Tue 3 Nov: +0.17% (StockAnalysis). Q3 2026 results still not out and no SEC filing (checked 4 Nov 09:10 SGT); calendars split between Fri 6 Nov (Zacks/Yahoo via ad-hoc-news) and Sat 7 Nov (Morningstar).",
+   "url": "https://stockanalysis.com/stocks/brk.b/forecast/"
+  },
+  {
    "date": "2026-11-02",
    "headline": "BRK.B jumps 2.5% to a record close of $556.11",
    "detail": "Mon 2 Nov: up 2.51% while the S&P 500 fell 0.51% and the Nasdaq 1.07% (Zacks); BRK.A closed $834,641. Rotation out of AI/tech continues; no company news behind the move.",
@@ -879,6 +906,20 @@
    "headline": "Barron's: Berkshire is hot again. Is it still a bargain?",
    "detail": "Third-party commentary: record high, up ~8% in a month.",
    "url": "https://www.realclearmarkets.com/2026/10/29/berkshire_hathaway_stock_is_hot_again_is_it_still_a_bargain_1214045.html"
+  }
+ ],
+ "comingUp": [
+  {
+   "date": "6–7 Nov 2026 (unconfirmed)",
+   "event": "Q3 2026 results & 10-Q",
+   "detail": "Berkshire has not announced a date; no SEC filing yet as of 4 Nov 09:10 SGT. Third-party: Morningstar (3 Nov) and Yahoo Finance say Sat 7 Nov; Zacks/Yahoo preview via ad-hoc-news (3 Nov) and Earnings Whispers say Fri 6 Nov.",
+   "url": "https://www.morningstar.com/stocks/berkshire-hathaway-shares-are-up-11-this-year-is-stock-buy-ahead-earnings"
+  },
+  {
+   "date": "mid-Nov 2026 (by 16 Nov, SEC deadline)",
+   "event": "13F-HR for 30 Sep 2026",
+   "detail": "Quarterly equity holdings filing; SEC deadline is 45 days after quarter end (Sat 14 Nov, so due Mon 16 Nov). Expected date per SEC rule, not a Berkshire announcement.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F&dateb=&owner=include&count=40"
   }
  ],
  "lawmakers": {
@@ -1411,12 +1452,5 @@
    "",
    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277630/d21990ds8pos.htm"
   ]
- ],
- "comingUp": [
-  {
-   "date": "6–7 Nov 2026 (unconfirmed)",
-   "event": "Q3 2026 results & 10-Q",
-   "detail": "Berkshire has not announced a date; no SEC filing yet as of 3 Nov. Third-party calendars: Yahoo Finance Sat 7 Nov; Earnings Whispers 6 Nov."
-  }
  ]
 }
