@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-11-06 09:11",
+ "built_sgt": "2026-11-07 12:31",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Jun 2026 (filed 10 Aug 2026)",
@@ -618,7 +618,7 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-11-06",
+  "asof": "2026-11-07",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
@@ -640,7 +640,7 @@
  },
  "next": {
   "date": "2026-11-07",
-  "note": "Confirmed by Berkshire (release of 4 Nov 2026): the Q3 2026 earnings release and Form 10-Q will be posted on berkshirehathaway.com on Saturday 7 Nov 2026 at about 7:00 a.m. Central time (about 9:00 p.m. SGT Sat 7 Nov).",
+  "note": "Confirmed by Berkshire (4 Nov 2026): Q3 2026 earnings release and Form 10-Q are scheduled on berkshirehathaway.com for Saturday 7 Nov 2026 at about 7:00 a.m. Central (~9:00 p.m. SGT). Checked at this scan: not yet posted (2026 news index still ends with the 4 Nov notice; no new 10-Q or 8-K on EDGAR). This scan does not absorb Q3. Book value stays on the 30 Jun 2026 10-Q until that filing is in.",
   "url": "https://www.berkshirehathaway.com/news/nov0426.pdf"
  },
  "people": [
@@ -704,6 +704,26 @@
   ]
  ],
  "news": [
+  [
+   "2026-11-07",
+   "Q3 2026 earnings release and Form 10-Q were not posted as of this scan. Berkshire’s 2026 news index still ends with the 4 Nov scheduling notice; EDGAR’s latest 10-Q remains the 10 Aug 2026 Q2 filing and there is no new 8-K. Usual quarterly URLs (3rdqtr26.pdf, nov0726.pdf) returned 404. Release remains scheduled for Sat 7 Nov at about 7:00 a.m. Central (~9:00 p.m. SGT). No Q3 figures are entered on this page.",
+   "https://www.berkshirehathaway.com/news/2026news.html"
+  ],
+  [
+   "2026-11-06",
+   "BRK.B official close $570.89 (-0.25%) on Fri 6 Nov (Yahoo Finance; open $562.07, range $559.61–$575.12, volume 5,413,200). Micron shared Worker regular-session last sale $571.065 (-0.221% vs prior close $572.33) at 15:59:59 ET. After-hours Worker print $572.17 at 19:21 ET is not used for the scan P/B. BRK.A $856,612 (Worker regular and Yahoo). Versus the Fri 30 Oct Yahoo close of $542.49, BRK.B is +5.24% on the week.",
+   "https://finance.yahoo.com/quote/BRK-B/history/"
+  ],
+  [
+   "2026-11-06",
+   "Kingswell Berkshire Beat: Saturday Q3 preview — check buybacks first, 13F expected 16 Nov, and Buffett’s Thanksgiving letter could arrive any day (last year’s was 10 Nov). Also recaps the already-filed SIRI purchase and says Brooks Running reported 12% revenue growth through the first three quarters (subsidiary figure, not Berkshire consolidated). Third-party; no Q3 Berkshire numbers.",
+   "https://www.kingswell.io/p/the-berkshire-beat-november-6-2026"
+  ],
+  [
+   "2026-11-06",
+   "Motley Fool (Dave Kovaleski): recaps Q2 buybacks (June Class B at $487.98; about $4.5bn in Q2 and $235m in Q1) and discusses the stock ahead of the 7 Nov release, using a $557 reference that matches the 3 Nov close rather than the 6 Nov close. Third-party.",
+   "https://www.fool.com/investing/2026/11/06/berkshire-hathaway-bought-back-its-own-stock-at/"
+  ],
   [
    "2026-11-05",
    "BRK.B hits an intraday all-time high of $586.30 then closes $572.33 (-1.17%, Yahoo/Motley Fool; StockAnalysis $571.97 -1.23%) amid a broad market selloff; range $571.10–$586.30 on ~9.8m shares. TipRanks (midday) framed the move as a safe-haven bid while the S&P was down >3% early. Third-party.",
@@ -872,6 +892,24 @@
  ],
  "whatsNewThisWeek": [
   {
+   "date": "2026-11-07",
+   "headline": "Q3 release and 10-Q not posted yet; still due ~9 p.m. SGT",
+   "detail": "Checked at this scan: Berkshire’s 2026 news index still ends with the 4 Nov notice, and EDGAR has no new 10-Q or 8-K. Scheduled Sat 7 Nov ~7:00 a.m. CT. This scan does not absorb Q3; book value stays on the 30 Jun 2026 10-Q.",
+   "url": "https://www.berkshirehathaway.com/news/2026news.html"
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "BRK.B closes $570.89 (-0.25%); Worker regular $571.065",
+   "detail": "Fri 6 Nov Yahoo official close $570.89 (range $559.61–$575.12, volume 5,413,200). Micron shared Worker regular last sale $571.065 at 15:59:59 ET; after-hours $572.17 is not the scan P/B. BRK.A $856,612. Week vs 30 Oct Yahoo close $542.49: +5.24%.",
+   "url": "https://finance.yahoo.com/quote/BRK-B/history/"
+  },
+  {
+   "date": "2026-11-06",
+   "headline": "Kingswell: Q3 preview — buybacks, 13F on 16 Nov, Thanksgiving letter",
+   "detail": "Third-party preview. No Berkshire Q3 figures. Brooks Running “12% revenue growth through three quarters” is a subsidiary claim, not a consolidated Berkshire number. SIRI purchase was already on the 3 Nov Form 4.",
+   "url": "https://www.kingswell.io/p/the-berkshire-beat-november-6-2026"
+  },
+  {
    "date": "2026-11-05",
    "headline": "BRK.B hits intraday ATH $586.30, closes $572.33 (-1.17%)",
    "detail": "Thu 5 Nov: range $571.10–$586.30 on ~9.8m shares (Yahoo/Motley Fool; StockAnalysis close $571.97). TipRanks (midday) cast it as a safe-haven bid in a market selloff. Third-party.",
@@ -942,19 +980,13 @@
    "headline": "Leadership table corrected: Howard G. Buffett is Chairman",
    "detail": "Per Berkshire release of 18 Sep 2026: Warren Buffett is Chairman Emeritus and remains a director; Susan Decker stays Lead Independent Director. Correction on this dashboard, not new company news.",
    "url": "https://www.berkshirehathaway.com/news/sep1826.pdf"
-  },
-  {
-   "date": "2026-10-30",
-   "headline": "Court approves $535m Whittaker Clark & Daniels talc settlement involving National Indemnity",
-   "detail": "Third-party (Kingswell Berkshire Beat); Berkshire booked a $490m pre-tax charge two years ago. Court order not checked.",
-   "url": "https://www.kingswell.io/p/the-berkshire-beat-october-30-2026"
   }
  ],
  "comingUp": [
   {
    "date": "Sat 7 Nov 2026, ~7:00 a.m. CT (~9:00 p.m. SGT)",
    "event": "Q3 2026 earnings release & 10-Q",
-   "detail": "Confirmed by Berkshire (news release 4 Nov 2026); posted on berkshirehathaway.com. Live BV switches to the 30 Sep 2026 balance sheet once the 10-Q is out.",
+   "detail": "Confirmed by Berkshire (news release 4 Nov 2026). Not posted as of this scan (news index unchanged; no new 10-Q/8-K on EDGAR). This scan does not absorb Q3. Live BV stays on the 30 Jun 2026 balance sheet until the 10-Q is in.",
    "url": "https://www.berkshirehathaway.com/news/nov0426.pdf"
   },
   {
