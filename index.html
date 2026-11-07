@@ -78,7 +78,7 @@ function comingUp(){const C=D.comingUp||[];return `<div class="card"><h2>Coming 
 function alerts(){const r=calc(),p=Q.brk&&Q.brk.last,A=[];
  if(p){const pb=p/r.bvB;A.push([pb>1.6?'⚠':'ℹ',`Live P/B ${pb.toFixed(2)}× (quarter-end BV ${(p/r.bvBqe).toFixed(2)}×).`])}
  A.push(['⚠','Kraft Heinz carrying value exceeds fair value by $1.1bn (12.2%) at 30 Jun 2026; Berkshire says an impairment may be recognised later (10-Q Note 5).']);
- const d=Math.ceil((new Date(D.next.date+'T21:00:00+08:00')-new Date())/864e5);A.push(['📅',`Q3 2026 results and 10-Q on Sat ${D.next.date}, ~7:00 a.m. CT / ~9:00 p.m. SGT (${d} days; confirmed by Berkshire, ${lk('source',D.next.url)}). Q3 10-Q will disclose buybacks since 30 Jun.`]);
+ A.push(['📅',`${D.next.note} (${lk('Berkshire notice',D.next.url)}). The 10-Q will disclose buybacks since 30 Jun.`]);
  A.push(['ℹ',`Cash + T-bills ≈ $364.7bn vs $30bn buyback floor (${S10()}).`]);
  if(r.missing.length)A.push(['ℹ',`${r.missing.length} smaller 13F positions lack a live price and are held at 30 Jun values: ${r.missing.join(', ')}.`]);
  return `<div class="card"><h2>Alerts</h2><ul class="lst">${A.map(a=>`<li>${a[0]} ${a[1]}</li>`).join('')}</ul></div>`}
