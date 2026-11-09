@@ -22,7 +22,7 @@ No token and no wrangler needed. After this, every push to `main` auto-deploys.
 6. Afterwards, per the recipe: ask Micron to drop any BRK tickers from its allowlist (it has none today), and share the endpoint with Steve.
 
 ## Data and KPI reuse
-- `python3 build_data.py` rebuilds `data.js`. Figures come from the Q2 2026 10-Q and the 30 Jun 2026 13F, with balance-sheet integrity asserts.
+- `python3 build_data.py` rebuilds `data.js`. Figures come from the Q3 2026 10-Q posted on berkshirehathaway.com (7 Nov 2026) and the 30 Jun 2026 13F, with balance-sheet integrity asserts. Live BV marks those 13F share counts from the 30 Sep 2026 close until the 30 Sep 13F is filed.
 - Real-time BV per B share in Node: `node -e "const C=require('./calc.js'),D=require('./data.json');console.log(C.liveBV(D,{AAPL:347.73},{eqmAtMarket:false}))"`. The page's "Copy KPI JSON" button exports the same snapshot.
 
 ## Daily scan: What's new this week
