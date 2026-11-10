@@ -1,8 +1,8 @@
 {
- "built_sgt": "2026-11-09 09:17",
+ "built_sgt": "2026-11-10 09:08",
  "src": {
   "q10": [
-   "Form 10-Q for quarter ended 30 Sep 2026 (posted on berkshirehathaway.com 7 Nov 2026; signed 7 Nov 2026). Not in the SEC submissions feed at this scan — latest EDGAR 10-Q is still the 10 Aug 2026 filing.",
+   "Form 10-Q for quarter ended 30 Sep 2026 (posted on berkshirehathaway.com 7 Nov 2026; signed 7 Nov 2026). Filed on EDGAR 9 Nov 2026, accession 0001193125-26-452412. This page still uses the Berkshire PDF. Shareholders’ equity in the EDGAR filing is $761,368m, the same figure.",
    "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
   ],
   "q10n": [
@@ -739,12 +739,17 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 2 Hold)",
-  "asof": "2026-11-09",
+  "asof": "2026-11-10",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
   ],
   "notes": [
+   [
+    "2026-11-10",
+    "No new target after the 7 Nov release. StockAnalysis (S&P Global) still shows the 22 Oct set: avg $555.67, low $510, high $628, 4 analysts, Buy (2 Strong Buy / 2 Hold). The page’s last-updated note is still 22 Oct 2026. About 3.4% below the Mon 9 Nov Yahoo/CNBC close of $575.25. TipRanks still shows a 3-month average of $584 from two targets ($628 and $540) against a stale $570.89 last price. Third-party; aggregators disagree.",
+    "https://stockanalysis.com/stocks/brk.b/forecast/"
+   ],
    [
     "2026-11-09",
     "No new target found after the 7 Nov release. StockAnalysis still shows the 22 Oct set: avg $555.67, low $510, high $628, 4 analysts, Buy. Page last-updated note is 22 Oct 2026.",
@@ -766,7 +771,7 @@
  },
  "next": {
   "date": "2026-11-16",
-  "note": "Q3 2026 earnings and the 10-Q were posted on berkshirehathaway.com on Sat 7 Nov 2026 and are absorbed on this page. Next holding-level filing: Form 13F-HR for 30 Sep 2026, SEC deadline Mon 16 Nov 2026. Not filed as of this scan.",
+  "note": "Q3 2026 earnings and the 10-Q were posted on berkshirehathaway.com on Sat 7 Nov 2026 and filed on EDGAR on 9 Nov 2026 (10-Q, an Item 2.02 8-K, and a preliminary yen-note 424B5). They are absorbed on this page. Next holding-level filing: Form 13F-HR for 30 Sep 2026, SEC deadline Mon 16 Nov 2026. Not filed as of this scan.",
   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F&dateb=&owner=include&count=40"
  },
  "people": [
@@ -800,6 +805,13 @@
   "https://www.berkshirehathaway.com/news/sep1826.pdf"
  ],
  "youtube": [
+  [
+   "2026-11-09",
+   "Berkshire Hathaway latest: Q3 earnings, top 5 holdings, record stock buyback",
+   "Yahoo Finance",
+   "https://finance.yahoo.com/video/berkshire-hathaway-latest-q3-earnings-top-5-holdings-record-stock-buyback--more-150507713.html",
+   "Transcript of Yahoo Finance “The 8:30” (Julie Hyman, Pras Subramanian, Jake Conley), 9 Nov 2026, 10:05 a.m. ET. Hosts recap the already-posted Q3 release: buybacks of about $9.6bn, more than double Q2; operating earnings about $12.7bn; underwriting down 43% to about $1.35bn; insurance investment income down 14% to about $2.7bn; railroad, energy and manufacturing stronger. One host says “9.6 billion shares” and “down five and a half percent”; the Berkshire release is about $9.6bn of stock and operating earnings of $12,705m versus $13,485m (about −5.8%). The host’s “$377 billion in cash” is not the 10-Q figure (consolidated cash and T-bills net of the payable are $356.9bn). They name Alphabet, American Express, Apple, Bank of America and Coca-Cola as the top five; the 30 Sep 13F is not filed. No new CNBC or YouTube Abel or Buffett clip dated after 22 Oct was found at this scan."
+  ],
   [
    "2026-11-07",
    "Berkshire Makes Record $9.6 Billion Buyback",
@@ -837,6 +849,21 @@
   ]
  ],
  "news": [
+  [
+   "2026-11-10",
+   "Tuesday scan. Prices are the Mon 9 Nov US regular session (this SGT morning is after the US close). Scan P/B uses the Micron shared Worker regular last sale, BRK.B $575.08 at 15:59:59 ET, the same choice as the 9 Nov scan. Yahoo Finance chart regularMarketPrice and the CNBC regular last are both $575.25 (CNBC 4:10 p.m. EST, +$4.36 / +0.76% vs Fri $570.89; open $569.99, high $577.69, low $562.45). The Yahoo daily-history close for 9 Nov was still null. Worker prev_close is also $575.25. Overnight Worker print and CNBC after-hours are both $572.80 and are not the scan P/B. StockAnalysis showed a different close of $574.76 at 4:00 p.m. EST; not used. BRK.A Yahoo regularMarketPrice and CNBC last $853,500 (−0.36% vs Fri $856,612). Worker regular BRK.A $861,610.785 does not match those two and is not used. On the Worker regular price, live BV is $361.20 per B share versus $357.73 at 30 Sep (P/B 1.592×; 1.608× on quarter-end book). On $575.25 the P/B is 1.593×. 13F mark-to-market $314,915m versus a 30 Sep estimate of $304,885m.",
+   "https://finance.yahoo.com/quote/BRK-B/"
+  ],
+  [
+   "2026-11-09",
+   "SEC filings posted after the Monday-morning scan. Form 10-Q for the quarter ended 30 Sep 2026, filed 9 Nov 2026 (accession 0001193125-26-452412). Form 8-K filed 9 Nov 2026 (Items 2.02 and 9.01) furnishes the 7 Nov earnings release as Exhibit 99.1; signed by Chuck C. Chang. No new dollar figures in the 8-K body. EDGAR shareholders’ equity is $761,368m, matching the Berkshire PDF already on this page. The 30 Sep 13F is still not filed.",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm"
+  ],
+  [
+   "2026-11-09",
+   "Preliminary prospectus supplement (Rule 424(b)(5), Registration No. 333-284622), subject to completion, dated 9 Nov 2026. Berkshire Hathaway Inc. proposes three series of yen senior notes. Coupons, principal amounts and maturity dates are blank. Minimum denomination ¥100,000,000. Not listed. Joint book-running managers: Mizuho and BofA Securities. Use of proceeds: general corporate purposes, including refinancing the 0.955% Senior Notes due 27 Nov 2026 (¥73.4bn) and the 0.203% Senior Notes due 25 Jan 2027 (¥23.0bn). The filing states the Federal Reserve yen/dollar rate on 30 Oct 2026 was ¥157.47 = $1. This is not a priced deal. Quartz, citing Bloomberg (9 Nov), says a benchmark sale could come shortly depending on market conditions; that timing is third-party and the size is not in the prospectus.",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm"
+  ],
   [
    "2026-11-09",
    "Monday scan. Prices are the Fri 6 Nov US regular-session close (the US cash market was not open at this SGT morning build). BRK.B Yahoo close $570.89. Micron shared Worker regular last sale $571.065 at 15:59:59 ET Fri 6 Nov; feed prev close $570.89. Overnight Worker print $574.50 at 20:07 ET Sun 8 Nov is not the scan P/B. BRK.A Yahoo regularMarketPrice $856,612. On those regular prices, live BV is $359.86 per B share versus $357.73 at 30 Sep (P/B 1.587× on $571.065; 1.596× on the quarter-end book). 13F mark-to-market $311,526m versus a 30 Sep estimate of $304,885m.",
@@ -1055,6 +1082,36 @@
  ],
  "whatsNewThisWeek": [
   {
+   "date": "2026-11-10",
+   "headline": "Live BV $361.20 per B share; quarter-end was $357.73",
+   "detail": "30 Sep equity $761,368m ÷ 1,418,900 A-equivalent shares = $357.73. Mon 9 Nov regular prices (Worker GOOGL $288.14 / GOOG $286.03; other 13F names at the Yahoo regularMarketPrice, which matched the CNBC last) add $9,359m pre-tax, $7,394m after 21% tax. Live equity $768,762m. P/B 1.592× on Worker regular BRK.B $575.08 and 1.593× on the Yahoo/CNBC close $575.25. Overnight and after-hours $572.80 are not the scan P/B. Buybacks after 30 Sep assumed $0. OXY and KHC stay at carrying value.",
+   "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+  },
+  {
+   "date": "2026-11-10",
+   "headline": "BRK.B regular close $575.25; Worker last sale $575.08",
+   "detail": "Mon 9 Nov. Yahoo chart regularMarketPrice and CNBC last $575.25 (+$4.36 / +0.76% vs Fri Yahoo $570.89; range $562.45–$577.69). The Yahoo daily-history close was still null. Micron shared Worker regular last sale $575.08 at 15:59:59 ET. After-hours and the overnight Worker print are $572.80 and are not the scan P/B. BRK.A Yahoo/CNBC $853,500. Worker BRK.A $861,610.785 does not match and is not used.",
+   "url": "https://finance.yahoo.com/quote/BRK-B/"
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "10-Q and earnings 8-K are now on EDGAR",
+   "detail": "Filed 9 Nov, after the Monday-morning scan. 10-Q accession 0001193125-26-452412. Equity $761,368m matches the Berkshire PDF this page already uses. The 8-K (Items 2.02 and 9.01) furnishes the 7 Nov release; no new figures in the 8-K body. The 30 Sep 13F is still not filed (deadline Mon 16 Nov).",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm"
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Preliminary yen senior notes: size and coupon still blank",
+   "detail": "Rule 424(b)(5) prospectus supplement, subject to completion, dated 9 Nov. Three series. Joint bookrunners Mizuho and BofA Securities. Stated use includes refinancing ¥73.4bn of 0.955% notes due 27 Nov 2026 and ¥23.0bn of 0.203% notes due 25 Jan 2027. Not a priced deal. Quartz, citing Bloomberg, says a sale could come shortly; that timing is third-party.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm"
+  },
+  {
+   "date": "2026-11-09",
+   "headline": "Yahoo Finance recap of Q3; cash figure is not the 10-Q",
+   "detail": "“The 8:30” transcript, 10:05 a.m. ET. Hosts recap the $9.6bn buyback and the insurance decline. One line says “$377 billion in cash”; the 10-Q consolidated cash and T-bills net of the payable are $356.9bn. No new CNBC or YouTube Abel/Buffett clip found.",
+   "url": "https://finance.yahoo.com/video/berkshire-hathaway-latest-q3-earnings-top-5-holdings-record-stock-buyback--more-150507713.html"
+  },
+  {
    "date": "2026-11-09",
    "headline": "Live BV $359.86 per B share; quarter-end was $357.73",
    "detail": "30 Sep equity $761,368m ÷ 1,418,900 A-equivalent shares = $357.73. Fri 6 Nov regular prices (Worker GOOGL $284.68 / GOOG $283.74; other 13F names at the Yahoo close) add $5,745m pre-tax, $4,538m after 21% tax. Live equity $765,906m. P/B 1.587× on Worker regular BRK.B $571.065 and 1.586× on the Yahoo close $570.89. Overnight Worker print $574.50 is not the scan P/B. Buybacks after 30 Sep assumed $0.",
@@ -1131,18 +1188,6 @@
    "headline": "BRK.B edges up to another record close, $557.07",
    "detail": "Tue 3 Nov: +0.17% (StockAnalysis). Q3 2026 results still not out and no SEC filing (checked 4 Nov 09:10 SGT); calendars split between Fri 6 Nov (Zacks/Yahoo via ad-hoc-news) and Sat 7 Nov (Morningstar).",
    "url": "https://stockanalysis.com/stocks/brk.b/forecast/"
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "BRK.B jumps 2.5% to a record close of $556.11",
-   "detail": "Mon 2 Nov: up 2.51% while the S&P 500 fell 0.51% and the Nasdaq 1.07% (Zacks); BRK.A closed $834,641. Rotation out of AI/tech continues; no company news behind the move.",
-   "url": "https://nz.finance.yahoo.com/news/berkshire-hathaway-b-brk-b-214502799.html"
-  },
-  {
-   "date": "2026-11-02",
-   "headline": "Q3 2026 results still not out; release date unconfirmed",
-   "detail": "Some calendars (TipRanks, Investing.com) expected Mon 2 Nov, but Berkshire posted no release and filed nothing with the SEC (checked 3 Nov 09:15 SGT). Yahoo lists Sat 7 Nov; Earnings Whispers 6 Nov. Street op. EPS est. ~$5.91 per B share (Zacks). Third-party.",
-   "url": "https://www.berkshirehathaway.com/news/2026news.html"
   }
  ],
  "comingUp": [
@@ -1151,6 +1196,12 @@
    "event": "13F-HR for 30 Sep 2026",
    "detail": "Quarterly equity holdings. SEC deadline is 45 days after quarter-end (Sat 14 Nov, so the next business day is Mon 16 Nov). Not filed as of this scan. Expected from the SEC rule, not a Berkshire announcement. Share counts on this page stay at 30 Jun until that filing.",
    "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=13F&dateb=&owner=include&count=40"
+  },
+  {
+   "date": "Subject to completion (filed 9 Nov 2026)",
+   "event": "Yen senior notes, preliminary",
+   "detail": "Three series in the 9 Nov 424B5. Coupons, principal amounts and maturity dates are blank, so this is not a priced deal. Stated use: general corporate purposes, including refinancing the 0.955% notes due 27 Nov 2026 (¥73.4bn) and the 0.203% notes due 25 Jan 2027 (¥23.0bn). Joint bookrunners Mizuho and BofA Securities. Quartz, citing Bloomberg (9 Nov), says a benchmark sale could come shortly depending on market conditions. That timing is third-party.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm"
   },
   {
    "date": "Not scheduled",
@@ -1540,6 +1591,24 @@
  },
  "filings": [
   [
+   "2026-11-09",
+   "424B5",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm"
+  ],
+  [
+   "2026-11-09",
+   "8-K",
+   "2026-11-07",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452530/brka-20261107.htm"
+  ],
+  [
+   "2026-11-09",
+   "10-Q",
+   "2026-09-30",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452412/brka-20260930.htm"
+  ],
+  [
    "2026-11-03",
    "4",
    "2026-10-30",
@@ -1670,24 +1739,6 @@
    "SCHEDULE 13D/A",
    "",
    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526304838/"
-  ],
-  [
-   "2026-07-02",
-   "4",
-   "2026-07-01",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000002/"
-  ],
-  [
-   "2026-06-25",
-   "11-K",
-   "2025-12-31",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526282257/brka-20251231.htm"
-  ],
-  [
-   "2026-06-22",
-   "S-8 POS",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526277638/d22632ds8pos.htm"
   ]
  ]
 }
