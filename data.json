@@ -1,5 +1,5 @@
 {
- "built_sgt": "2026-11-17 08:51",
+ "built_sgt": "2026-11-18 08:46",
  "src": {
   "q10": [
    "Form 10-Q for quarter ended 30 Sep 2026 (posted on berkshirehathaway.com 7 Nov 2026; signed 7 Nov 2026). Filed on EDGAR 9 Nov 2026, accession 0001193125-26-452412. This page still uses the Berkshire PDF. Shareholders’ equity in the EDGAR filing is $761,368m, the same figure.",
@@ -750,12 +750,17 @@
   "hi": 628,
   "n": 4,
   "rating": "Buy (2 Strong Buy / 1 Hold / 1 Sell)",
-  "asof": "2026-11-17",
+  "asof": "2026-11-18",
   "via": [
    "StockAnalysis (S&P Global Market Intelligence)",
    "https://stockanalysis.com/stocks/brk.b/forecast/"
   ],
   "notes": [
+   [
+    "2026-11-18",
+    "Class B consensus on StockAnalysis (S&P Global), fetched this scan, is unchanged on price: avg $564.67, low $510, median $556, high $628, 4 analysts, consensus word Buy. The page last-updated line is still 22 Oct 2026 and its last-checked line is still 5 Nov 2026. With the page showing a 17 Nov close of $586.76, it puts the average 3.76% below that close. The November ratings column is still 2 Strong Buy / 1 Hold / 1 Sell. The visible Class B forecast table still names only UBS (Brian Meredith) Buy $628 on 22 Oct, DBS (Manyi Lu) Hold $540 on 17 Aug, and Argus (Kevin Heal) Buy with no target on 5 Jun. The Class A quote page shows the 17 Nov close of $878,512 (−$9,028 / −1.02%). The Class A forecast page, last updated 9 Nov 2026 and last checked 9 Nov 2026, is unchanged on price: average $826,601, low $765,000, median $799,500, high $942,405, consensus Hold. When fetched, that forecast page still showed $886,904 at 2:48 p.m. EST, marked market open, and put the average 6.80% below that print. Against the $878,512 close, the average is 5.91% lower. That 5.91% is this page’s arithmetic, not the figure on the forecast page. The November Class A ratings column is still 1 Strong Buy / 1 Hold / 2 Sell. TipRanks, fetched this scan, now shows a 3-month average of $628 from one target. At the 17 Nov scan it was $584 from $628 and $540. The DBS $540 target is dated 17 Aug 2026 and is no longer inside the three-month window. dateModified is still 22 Oct 2026. Its last price is the 16 Nov close of $592.85, not Tuesday’s $586.76, and it puts $628 5.93% above $592.85. Its TD Cowen row is still Andrew Kligerman, Hold, $481, dated 12 Nov 2025. MarketBeat, fetched this scan, shows a consensus target of $628 (high and low both $628) and Moderate Buy from 1 Buy and 1 Hold. The forecast page still printed $591.36 at 2:49 p.m. Eastern and 6.20% upside versus that print, which is not Tuesday’s close. The visible table names UBS Buy $628 on 22 Oct, a Zacks upgrade to Hold on 15 May with no target, TD Cowen Hold $481 on 11 Nov 2025, and Argus $575 on 26 Mar 2025. A separate MarketBeat page says Wall Street Zen downgraded the stock to Sell on 14 Nov 2026 and shows no price target. That date is before this scan, and the row is not on the StockAnalysis table. No target change dated 17 or 18 Nov was found. Third-party; aggregators disagree.",
+    "https://stockanalysis.com/stocks/brk.b/forecast/"
+   ],
    [
     "2026-11-17",
     "Class B consensus on StockAnalysis (S&P Global), fetched this scan, is unchanged on price: avg $564.67, low $510, median $556, high $628, 4 analysts, consensus word Buy. The page last-updated line is still 22 Oct 2026 and its last-checked line is still 5 Nov 2026. With the page showing a 16 Nov close of $592.85, it puts the average 4.75% below that close. The November ratings column is still 2 Strong Buy / 1 Hold / 1 Sell. The visible Class B forecast table still names only UBS (Brian Meredith) Buy $628 on 22 Oct, DBS (Manyi Lu) Hold $540 on 17 Aug, and Argus (Kevin Heal) Buy with no target on 5 Jun. The Class A page, last updated 9 Nov 2026 and last checked 9 Nov 2026, is unchanged on price: average $826,601, low $765,000, median $799,500, high $942,405, consensus Hold. Against the $887,540 close shown on that page, the average is 6.87% lower. The November Class A ratings column is still 1 Strong Buy / 1 Hold / 2 Sell. TipRanks, fetched this scan, still shows a 3-month average of $584 from two targets ($628 and $540). Its last price is still the 13 Nov close of $592.94, not Monday’s $592.85, and it puts that average 1.51% below $592.94. Its TD Cowen row is still Andrew Kligerman, Hold, $481, dated 12 Nov 2025. No target change dated 16 or 17 Nov was found on either page. Third-party; aggregators disagree.",
@@ -812,8 +817,8 @@
  },
  "next": {
   "date": "2026-11-19",
-  "note": "The 30 Sep 2026 13F-HR was filed 16 Nov 2026 (accession 0001193125-26-463399) and is absorbed on this page. The same day Berkshire posted Warren Buffett’s Thanksgiving release: he will convert 6,150 Class A shares into 9,225,000 Class B shares and donate them to four family foundations. Two officer Form 4s filed the same day report open-market purchases on 12 Nov. They are not company buybacks. No 8-K, final 424B2, or SC 13D/G is dated 16 or 17 Nov. The yen senior notes priced on 13 Nov settle Thu 19 Nov 2026. Buybacks since 30 Sep stay $0.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526463399/xslForm13F_X02/primary_doc.xml"
+  "note": "Final yen-note prospectus supplement filed 17 Nov 2026 (Rule 424(b)(5), accession 0001193125-26-465047, dated 13 Nov, not marked subject to completion). Delivery is on or about Thu 19 Nov 2026. The same day Warren Buffett filed a Form 4 and Schedule 13D/A amendment 82 for the 16 Nov conversion and gifts. Five Schedule 13G filings confirm the 30 Sep 13F share counts and do not change them. No 8-K and no 13F/A. Buybacks since 30 Sep stay $0.",
+  "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
  },
  "people": [
   [
@@ -847,6 +852,13 @@
  ],
  "youtube": [
   [
+   "2026-11-17",
+   "Final Trades: Berkshire Hathaway, Amazon, AbbVie and Marriott",
+   "CNBC",
+   "https://www.cnbc.com/video/2026/11/17/final-trades-berkshire-hathaway-amazon-abbvie-marriott.html",
+   "The Investment Committee, 17 Nov 2026, 1:17 p.m. EST, duration 0:47. A caption transcript was not on the page. The description says the committee gives its top stocks to watch for the second half. It does not say what was said about Berkshire. No new Greg Abel or Warren Buffett interview with a transcript was found at this scan."
+  ],
+  [
    "2026-11-16",
    "Berkshire Hathaway reduces Capital One and Bank of America stakes, boosts Delta Air Lines stake",
    "CNBC",
@@ -858,7 +870,7 @@
    "Berkshire Hathaway latest: Q3 earnings, top 5 holdings, record stock buyback",
    "Yahoo Finance",
    "https://finance.yahoo.com/video/berkshire-hathaway-latest-q3-earnings-top-5-holdings-record-stock-buyback--more-150507713.html",
-   "Transcript of Yahoo Finance “The 8:30” (Julie Hyman, Pras Subramanian, Jake Conley), 9 Nov 2026, 10:05 a.m. ET. Hosts recap the already-posted Q3 release: buybacks of about $9.6bn, more than double Q2; operating earnings about $12.7bn; underwriting down 43% to about $1.35bn; insurance investment income down 14% to about $2.7bn; railroad, energy and manufacturing stronger. One host says “9.6 billion shares” and “down five and a half percent”; the Berkshire release is about $9.6bn of stock and operating earnings of $12,705m versus $13,485m (about −5.8%). The host’s “$377 billion in cash” is not the 10-Q figure (consolidated cash and T-bills net of the payable are $356.9bn). They name Alphabet, American Express, Apple, Bank of America and Coca-Cola as the top five; the 30 Sep 13F is not filed. A 16 Nov CNBC Closing Bell clip on the 13F is now the newest video on this page. No caption transcript was on that CNBC page. No other Berkshire, Abel, or Buffett clip dated after 9 Nov was found on the 10–17 Nov scans."
+   "Transcript of Yahoo Finance “The 8:30” (Julie Hyman, Pras Subramanian, Jake Conley), 9 Nov 2026, 10:05 a.m. ET. Hosts recap the already-posted Q3 release: buybacks of about $9.6bn, more than double Q2; operating earnings about $12.7bn; underwriting down 43% to about $1.35bn; insurance investment income down 14% to about $2.7bn; railroad, energy and manufacturing stronger. One host says “9.6 billion shares” and “down five and a half percent”; the Berkshire release is about $9.6bn of stock and operating earnings of $12,705m versus $13,485m (about −5.8%). The host’s “$377 billion in cash” is not the 10-Q figure (consolidated cash and T-bills net of the payable are $356.9bn). They name Alphabet, American Express, Apple, Bank of America and Coca-Cola as the top five; the 30 Sep 13F is not filed. A 17 Nov CNBC Final Trades clip is now the newest video on this page. A caption transcript was not on that page. The 16 Nov CNBC Closing Bell clip on the 13F is the one before it. No caption transcript was on that CNBC page. No other Berkshire, Abel, or Buffett clip dated after 9 Nov was found on the 10–17 Nov scans."
   ],
   [
    "2026-11-07",
@@ -897,6 +909,36 @@
   ]
  ],
  "news": [
+  [
+   "2026-11-18",
+   "Wednesday scan. Prices are the Tue 17 Nov US regular session (this SGT morning is after that close; the US after-hours session was still open when quotes were fetched). Scan P/B uses the Micron shared Worker regular last sale, BRK.B $587.05 at 15:59:59 ET. Worker prev_close is $592.85 dated 16 Nov, which matches Monday’s CNBC and StockAnalysis close. The Worker regular print is $0.29 above the settled close. The Yahoo Finance chart API returned HTTP 429 for BRK-B and BRK-A, so Yahoo is not a source this scan. CNBC last is $586.76 (−$6.09 / −1.03% vs Monday $592.85; open $589.98, high $592.01, low $586.04, volume 4,899,138; status POST_MKT; time 4:10 p.m. EST). StockAnalysis shows the same $586.76 close at 4:00 p.m. EST (open $589.98, range $586.04–$592.01, previous close $592.85, volume 5,042,978). MarketBeat’s quote page shows the same range and volume of about 5.09 million shares. The 52-week range on CNBC and StockAnalysis is still $464.01–$596.92, so Tuesday’s high did not replace Thursday’s high. After-hours prints are not the scan P/B: Worker main and CNBC extended $585.50 at 7:39 p.m. EST; StockAnalysis quote-page after-hours $585.70 at 4:38 p.m. EST; the forecast page showed after-hours $585.69 at 5:12 p.m. EST. BRK.A Worker regular, CNBC last and the StockAnalysis quote-page close are $878,512. CNBC Class A change is −$9,028 / −1.02% vs Monday $887,540 (open $882,652, high $887,500, low $878,512, volume 189; time 4:10 p.m. EST). CNBC shows no extended Class A print, and the Worker main for Class A is that regular close. The Class A forecast page still showed $886,904 at 2:48 p.m. EST, marked market open, and that print is not the close. On the Worker regular Class B price, live BV is $360.50 per B share versus $357.73 at 30 Sep (P/B 1.628×, unrounded 1.6285×; 1.641× on quarter-end book, unrounded 1.6411×). On the CNBC and StockAnalysis close of $586.76 the unrounded P/B is 1.6276×, which rounds to 1.628×, and quarter-end book is 1.640× (unrounded 1.6402×). The page rounds the live card to 1.63× and 1.64×. 13F mark-to-market $312,753m versus $304,197m at 30 Sep. GOOGL and GOOG are the Worker regular prints ($280.21 and $277.58). The other 13F names are the CNBC last. The shared Worker returned symbol not allowed for those other tickers (allowlist still MU, LMND, SPCX, NVDA, TSLA, META, GOOGL, GOOG, BRK.B, BRK.A). CNBC GOOGL is $280.20 and CNBC GOOG is $277.60. An all-CNBC cross-check also rounds live BV to $360.50 (pre-tax $7,460m; MTM $312,752m). Pre-tax change $7,460m, $5,893m after 21% tax. Live equity $767,261m. Yesterday’s $361.52 used Monday’s regular prices on the same 30 Sep counts. Buybacks since 30 Sep stay $0. OXY and KHC stay at carrying value.",
+   "https://micron-dashboard.cashcache.workers.dev/api/quote?symbol=BRK.B"
+  ],
+  [
+   "2026-11-18",
+   "Final prospectus supplement for the yen senior notes, filed 17 Nov 2026, accepted 11:32:44 ET (2026-11-17T16:32:44Z), accession 0001193125-26-465047. Rule 424(b)(5), Registration No. 333-284622. The supplement is dated 13 Nov 2026 and is not marked subject to completion. Five series, each at 100% of face, matching the 13 Nov FWP: ¥92bn 2.624% due 29 Nov 2029; ¥57.3bn 3.007% due 8 Dec 2031; ¥16.1bn 3.313% due 29 Nov 2033; ¥2.7bn 3.661% due 8 Dec 2036; ¥14.2bn 4.571% due 29 Nov 2056. Aggregate face ¥182.3bn. Underwriting discount ¥295m. Proceeds, before expenses, to Berkshire ¥182.005bn. The issuer estimates about $2.75m of other expenses. Delivery on or about 19 Nov 2026, the fourth Tokyo business day after the date of the supplement, through Euroclear and Clearstream. Joint book-running managers Mizuho Securities USA LLC and Merrill Lynch International; the cover names Mizuho and BofA Securities. Use of proceeds, now stated in this supplement: general corporate purposes, including refinancing the 0.955% notes due 27 Nov 2026 (¥73.4bn) and the 0.203% notes due 25 Jan 2027 (¥23.0bn). The final supplement does not restate an expected-ratings line. No 8-K and no 13F/A dated 17 or 18 Nov. Settlement is still ahead. Buybacks since 30 Sep stay $0.",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
+  ],
+  [
+   "2026-11-18",
+   "Warren E. Buffett Form 4, filed 17 Nov 2026, accepted 19:18:44 ET (2026-11-18T00:18:44Z), accession 0001193125-26-465872, period of report 16 Nov, signed 17 Nov. It records the conversion and gifts in the 16 Nov Berkshire release. Code C: acquired 9,225,000 Class B at $0.00, with 9,226,162 Class B held after that line. Four code G gifts at $0.00, each footnoted as a gift to a charitable organization: 3,690,000 Class B, then 1,845,000 three times, ending at 1,162 Class B. Code C: disposed 6,150 Class A, with 182,140 Class A held after. The Class A price field is footnoted “Not applicable.” Another footnote says each Class A share converts into 1,500 Class B and that Class A holdings are reported in Table II. Schedule 13D/A amendment 82, filed the same day, accepted 19:23:48 ET (2026-11-18T00:23:48Z), accession 0001193125-26-465884, event date 16 Nov 2026. It states that he owns 182,140 Class A and 1,162 Class B, representing about 38.4% of the outstanding Class A, less than 0.01% of the outstanding Class B, 29.6% of the aggregate voting power of both classes, and 12.9% of the economic interest of both classes. The 16 Nov news release stated no percentage. The prior scan did not use Reuters’ “about 13%.” The 12.9% is this amendment’s figure. The conversion and gifts are not a company buyback and do not change the 30 Sep share count used in live BV.",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465884/xslSCHEDULE_13D_X02/primary_doc.xml"
+  ],
+  [
+   "2026-11-18",
+   "Five beneficial-ownership reports, all with an event date of 30 Sep 2026, accepted after the 17 Nov 08:51 SGT scan. The Warren E. Buffett cover page on each one, which is the aggregate, reports a share count that matches this page’s 30 Sep 13F. The class percent is the figure on that cover. Delta Air Lines 13G/A amendment 2, accession 0001193125-26-464189, accepted 20:19:40 ET on 16 Nov: 64,450,000 shares, 9.8%. Bank of America 13G/A amendment 8, accession 0001193125-26-464211, accepted 20:50:03 ET: 455,860,908 shares, 6.6%. Kroger 13G/A amendment 2, accession 0001193125-26-464214, accepted 20:52:46 ET: 35,000,000 shares, 5.9%. Bending Spoons 13G (not an amendment), accession 0001193125-26-464218, accepted 20:57:12 ET: 20,689,655 ordinary shares, 6.4%. VeriSign 13G/A amendment 6, accession 0001193125-26-464219, accepted 20:57:17 ET: 5,922,136 shares, 6.6%. These filings do not change the share counts. Trades after 30 Sep stay out. The Real Deal (17 Nov 2026, 10:00 p.m. UTC), citing the Wall Street Journal, says Berkshire bought about 13 million Lennar Class A shares in the quarter and, after further October purchases, held 12.5%. The quarter’s Class A increase on this page is 12,922,695 shares. The 12.5% figure and the October purchases are not in the 13F or in these 13G filings. Third-party. Share counts stay at 30 Sep.",
+   "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=SC+13&dateb=&owner=include&count=40"
+  ],
+  [
+   "2026-11-18",
+   "Class B StockAnalysis consensus, fetched this scan, is unchanged on price: avg $564.67, low $510, median $556, high $628, Buy (2 Strong Buy / 1 Hold / 1 Sell). The last-updated line is still 22 Oct 2026 and the last-checked line is still 5 Nov 2026. The page puts the average 3.76% below the $586.76 close it shows. Class A targets are unchanged: avg $826,601, low $765,000, median $799,500, high $942,405, Hold, last updated 9 Nov 2026. The Class A forecast page still showed an intraday $886,904 at 2:48 p.m. EST and 6.80% downside versus that print. Against the $878,512 close, the average is 5.91% lower. That 5.91% is this page’s arithmetic. TipRanks now shows a 3-month average of $628 from the UBS target only. The 17 Aug DBS target of $540 has left the three-month window, which is why the average is no longer $584. Its last price is still the 16 Nov close of $592.85 (5.93% below $628), and dateModified is still 22 Oct 2026. TD Cowen on that page is still Hold, $481, dated 12 Nov 2025. MarketBeat shows $628 and Moderate Buy (1 Buy, 1 Hold) against an intraday $591.36 at 2:49 p.m. Eastern, not Tuesday’s close. No target change dated 17 or 18 Nov was found. Third-party; aggregators disagree.",
+   "https://stockanalysis.com/stocks/brk.b/forecast/"
+  ],
+  [
+   "2026-11-18",
+   "CNBC Final Trades, 17 Nov 2026, 1:17 p.m. EST, 47 seconds. The Investment Committee segment names Berkshire Hathaway, Amazon, AbbVie and Marriott. A caption transcript was not on the page. The description says the committee gives its top stocks to watch for the second half, and it does not say what was said about Berkshire. No new Greg Abel or Warren Buffett interview was found. Berkshire’s 2026 news index still leads with the 16 Nov Thanksgiving release. letters/2026ltr.pdf still returns 404.",
+   "https://www.cnbc.com/video/2026/11/17/final-trades-berkshire-hathaway-amazon-abbvie-marriott.html"
+  ],
   [
    "2026-11-17",
    "Tuesday scan. Prices are the Mon 16 Nov US regular session (this SGT morning is after that close; the US after-hours session was still open when quotes were fetched). Scan P/B uses the Micron shared Worker regular last sale, BRK.B $592.95 at 15:59:59 ET. That print is $0.01 above the Worker prev_close of $592.94 dated 13 Nov. It does not match the settled close. Yahoo Finance daily close for 16 Nov is $592.85 (open $594.97, high $595.83, low $588.55, volume 3,742,776). CNBC last is $592.85 (−$0.09 / −0.02% vs Friday $592.94; open $594.97, high $595.83, low $588.55, volume 3,535,273; status POST_MKT; time 4:10 p.m. EST). StockAnalysis shows the same $592.85 close at 4:00 p.m. EST. The 52-week range on CNBC is still $464.01–$596.92, so Monday’s high did not replace Thursday’s high. After-hours prints are not the scan P/B: Worker main $591.79 at 19:37:36 ET; CNBC extended $591.84 at 7:42 p.m. EST; the StockAnalysis forecast page showed after-hours $591.56 at 5:02 p.m. EST, earlier than those two. BRK.A Worker regular, CNBC last, Yahoo close and the StockAnalysis close are all $887,540. CNBC Class A change is −$2,253.83 / −0.25% vs Friday $889,793.83. StockAnalysis Class A after-hours was unchanged at 4:10 p.m. EST. On the Worker regular Class B price, live BV is $361.52 per B share versus $357.73 at 30 Sep (P/B 1.640×, unrounded 1.6402×; 1.658× on quarter-end book, unrounded 1.6575×). On the Yahoo, CNBC and StockAnalysis close of $592.85 the unrounded P/B is 1.6399×, which rounds to 1.640×, and quarter-end book is 1.657× (unrounded 1.6573×). The page rounds the live card to 1.64× and 1.66×. The share counts are now the 30 Sep 13F, so this is not a like-for-like revision of the 16 Nov figure of $362.47, which marked 30 Jun counts. On these Monday prices, the old June counts would have produced $361.44. The new counts add about $0.07 per B share. 13F mark-to-market $315,712m versus $304,197m at 30 Sep. GOOGL and GOOG are the Worker regular prints ($283.73 and $281.29). The other 13F names, including new BSP, are the CNBC last. The shared Worker returned symbol not allowed for those other tickers. CNBC GOOGL is $283.72 and CNBC GOOG is $281.26. An all-CNBC cross-check also rounds live BV to $361.52. Pre-tax change $10,209m, $8,065m after 21% tax. Live equity $769,433m. Buybacks since 30 Sep stay $0. OXY and KHC stay at carrying value.",
@@ -1275,6 +1317,48 @@
  ],
  "whatsNewThisWeek": [
   {
+   "date": "2026-11-18",
+   "headline": "Live BV $360.50 per B share; quarter-end was $357.73",
+   "detail": "30 Sep equity $761,368m ÷ 1,418,900 A-equivalent shares = $357.73. Tue 17 Nov regular prices (Worker GOOGL $280.21 / GOOG $277.58; other names at the CNBC last) add $7,460m pre-tax, $5,893m after 21% tax. Live equity $767,261m. 13F mark-to-market $312,753m versus $304,197m at 30 Sep. P/B 1.628× on Worker regular BRK.B $587.05 (unrounded 1.6285×) and 1.641× on quarter-end book (unrounded 1.6411×). The CNBC and StockAnalysis close of $586.76 is 1.6276×, which rounds to 1.628×. The page rounds the live card to 1.63× and 1.64×. After-hours Worker and CNBC $585.50 are not the scan P/B. Buybacks after 30 Sep assumed $0. OXY and KHC stay at carrying value. An all-CNBC mark also rounds to $360.50. Yesterday’s $361.52 used Monday’s prices on these same 30 Sep counts.",
+   "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
+  },
+  {
+   "date": "2026-11-18",
+   "headline": "BRK.B Worker regular last sale $587.05; close $586.76",
+   "detail": "Tue 17 Nov. The Worker regular print at 15:59:59 ET is the scan P/B price. It is $0.29 above the close. CNBC last and the StockAnalysis close are $586.76 (−$6.09 / −1.03% vs Mon $592.85; range $586.04–$592.01; open $589.98). CNBC volume 4,899,138. StockAnalysis volume 5,042,978. Yahoo’s chart API returned HTTP 429, so it is not a source. Tuesday’s high is below the 52-week high of $596.92 (low $464.01). Worker and CNBC extended $585.50 at 7:39 p.m. EST are not the scan P/B. BRK.A Worker, CNBC and StockAnalysis quote-page close $878,512.",
+   "url": "https://stockanalysis.com/stocks/brk.b/"
+  },
+  {
+   "date": "2026-11-18",
+   "headline": "Final yen-note prospectus supplement filed",
+   "detail": "Rule 424(b)(5), filed 17 Nov 2026, accepted 11:32 a.m. ET, accession 0001193125-26-465047, dated 13 Nov 2026. Not marked subject to completion. Same five series as the 13 Nov FWP, all at par, face ¥182.3bn, proceeds before expenses ¥182.005bn. Delivery on or about Thu 19 Nov. Use of proceeds, stated here and not in the FWP: general corporate purposes, including refinancing the ¥73.4bn 0.955% notes due 27 Nov 2026 and the ¥23.0bn 0.203% notes due 25 Jan 2027. No 8-K. Settlement is still ahead.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
+  },
+  {
+   "date": "2026-11-18",
+   "headline": "Buffett Form 4 and 13D/A: 12.9% economic interest",
+   "detail": "Form 4 filed 17 Nov for the 16 Nov conversion and gifts. He acquired 9,225,000 Class B at $0.00, gave away that many shares, and held 1,162 Class B and 182,140 Class A after. Schedule 13D/A amendment 82 states about 38.4% of Class A, less than 0.01% of Class B, 29.6% of the voting power, and 12.9% of the economic interest. The 16 Nov release stated no percentage. Not a company buyback. Live BV still uses the 30 Sep share count.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465884/xslSCHEDULE_13D_X02/primary_doc.xml"
+  },
+  {
+   "date": "2026-11-18",
+   "headline": "Five 13G filings match the 30 Sep 13F share counts",
+   "detail": "Accepted after yesterday’s scan, event date 30 Sep 2026. Delta 64,450,000 shares (9.8%), Bank of America 455,860,908 (6.6%), Kroger 35,000,000 (5.9%), Bending Spoons 20,689,655 (6.4%, a new 13G), VeriSign 5,922,136 (6.6%). Those shares match this page. The Real Deal, citing the Wall Street Journal, says a 12.5% Lennar stake after October purchases. That percent is not in these filings. Share counts stay at 30 Sep.",
+   "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001067983&type=SC+13&dateb=&owner=include&count=40"
+  },
+  {
+   "date": "2026-11-18",
+   "headline": "Class B target average still $564.67; TipRanks window now $628",
+   "detail": "StockAnalysis Class B page, fetched this scan, last-updated line still 22 Oct: avg $564.67, median $556, low $510, high $628, Buy (2 Strong Buy / 1 Hold / 1 Sell). It puts that average 3.76% below the $586.76 close shown. Class A targets are unchanged at $826,601, Hold. TipRanks’ 3-month average is now $628 from the UBS target only, because the 17 Aug DBS target of $540 has left the window. It still uses Monday’s $592.85 close. MarketBeat shows $628 against an intraday $591.36. No target change dated 17 or 18 Nov. Third-party; aggregators disagree.",
+   "url": "https://stockanalysis.com/stocks/brk.b/forecast/"
+  },
+  {
+   "date": "2026-11-18",
+   "headline": "CNBC Final Trades names Berkshire; no transcript",
+   "detail": "17 Nov 2026, 1:17 p.m. EST, 47 seconds. The description says the Investment Committee gives its top stocks to watch for the second half. It does not say what was said about Berkshire, and the page has no caption transcript. No new Abel or Buffett interview was found.",
+   "url": "https://www.cnbc.com/video/2026/11/17/final-trades-berkshire-hathaway-amazon-abbvie-marriott.html"
+  },
+  {
    "date": "2026-11-17",
    "headline": "Live BV $361.52 per B share on the 30 Sep 13F; quarter-end was $357.73",
    "detail": "30 Sep equity $761,368m ÷ 1,418,900 A-equivalent shares = $357.73. Mon 16 Nov regular prices (Worker GOOGL $283.73 / GOOG $281.29; other names, including new BSP, at the CNBC last) add $10,209m pre-tax, $8,065m after 21% tax. Live equity $769,433m. P/B 1.640× on Worker regular BRK.B $592.95 (unrounded 1.6402×) and 1.658× on quarter-end book (unrounded 1.6575×). The Yahoo, CNBC and StockAnalysis close of $592.85 is 1.6399×, which rounds to 1.640×. The page rounds the live card to 1.64× and 1.66×. After-hours Worker $591.79 is not the scan P/B. Buybacks after 30 Sep assumed $0. OXY and KHC stay at carrying value. An all-CNBC mark also rounds to $361.52. Yesterday’s $362.47 used 30 Jun share counts. On these Monday prices those old counts would be $361.44. The new counts add about $0.07.",
@@ -1459,44 +1543,26 @@
    "headline": "Class B target average still $555.67; KBW raised the Class A target",
    "detail": "StockAnalysis Class B page, fetched this scan, last-updated line still 22 Oct: avg $555.67, low $510, high $628, Buy. The November column is 2 Strong Buy / 1 Hold / 1 Sell; the Sell is not named in the forecast table. KBW (Meyer Shields) moved the Class A target to $765,000 from $735,000 on 9 Nov and kept Sell/Underperform (Class A page, last updated 9 Nov; TheFly 2026-11-09T11:36:03Z). $765,000 ÷ 1,500 = $510 per B share, this page’s conversion, not a new Class B target. TipRanks still shows $584 against a stale $570.89 last price. Third-party.",
    "url": "https://stockanalysis.com/stocks/brk.b/forecast/"
-  },
-  {
-   "date": "2026-11-10",
-   "headline": "Washington sues DaVita over medical-director noncompetes",
-   "detail": "Attorney General Nick Brown, release dated 10 Nov 2026. Berkshire’s DVA share count on this page is not changed (30 Jun 13F: 28,880,209 shares). Reuters the same day says Berkshire owns about 45%; that figure is third-party and not recomputed. CNBC DVA last $179.28, −3.37%.",
-   "url": "https://www.atg.wa.gov/news/news-releases/washington-sues-state-s-two-biggest-dialysis-companies-over-illegal-noncompete"
-  },
-  {
-   "date": "2026-11-10",
-   "headline": "Live BV $361.20 per B share; quarter-end was $357.73",
-   "detail": "30 Sep equity $761,368m ÷ 1,418,900 A-equivalent shares = $357.73. Mon 9 Nov regular prices (Worker GOOGL $288.14 / GOOG $286.03; other 13F names at the Yahoo regularMarketPrice, which matched the CNBC last) add $9,359m pre-tax, $7,394m after 21% tax. Live equity $768,762m. P/B 1.592× on Worker regular BRK.B $575.08 and 1.593× on the Yahoo/CNBC close $575.25. Overnight and after-hours $572.80 are not the scan P/B. Buybacks after 30 Sep assumed $0. OXY and KHC stay at carrying value.",
-   "url": "https://www.berkshirehathaway.com/qtrly/3rdqtr26.pdf"
-  },
-  {
-   "date": "2026-11-10",
-   "headline": "BRK.B regular close $575.25; Worker last sale $575.08",
-   "detail": "Mon 9 Nov. Yahoo chart regularMarketPrice and CNBC last $575.25 (+$4.36 / +0.76% vs Fri Yahoo $570.89; range $562.45–$577.69). The Yahoo daily-history close was still null. Micron shared Worker regular last sale $575.08 at 15:59:59 ET. After-hours and the overnight Worker print are $572.80 and are not the scan P/B. BRK.A Yahoo/CNBC $853,500. Worker BRK.A $861,610.785 does not match and is not used.",
-   "url": "https://finance.yahoo.com/quote/BRK-B/"
   }
  ],
  "comingUp": [
   {
    "date": "Thu 19 Nov 2026",
    "event": "Yen senior notes settle",
-   "detail": "Priced in the 13 Nov 2026 Rule 433 free writing prospectus (accession 0001193125-26-459815): ¥182.3bn across five series, all at 100% of face, proceeds to the issuer ¥182.005bn. Settlement is T+4 Tokyo business days. The 9 Nov 424B5 is still marked subject to completion and still shows blank terms for three series. No final 424B2 is on EDGAR. The FWP does not restate use of proceeds.",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526459815/d127427dfwp.htm"
+   "detail": "Final prospectus supplement filed 17 Nov 2026 (Rule 424(b)(5), accession 0001193125-26-465047), dated 13 Nov 2026, not marked subject to completion. ¥182.3bn across five series, all at 100% of face. Underwriting discount ¥295m. Proceeds before expenses ¥182.005bn. Other expenses estimated at about $2.75m. Delivery on or about Thu 19 Nov 2026, the fourth Tokyo business day after the supplement date. Use of proceeds: general corporate purposes, including refinancing the 0.955% notes due 27 Nov 2026 (¥73.4bn) and the 0.203% notes due 25 Jan 2027 (¥23.0bn). Joint bookrunners Mizuho Securities USA LLC and Merrill Lynch International. The 13 Nov FWP priced the same terms.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
   },
   {
    "date": "Fri 27 Nov 2026",
    "event": "0.955% yen notes mature",
-   "detail": "¥73.4bn of 0.955% Senior Notes due 27 Nov 2026, as described in the 9 Nov 424B5, which lists them among the notes the proposed offering may refinance. The 13 Nov FWP does not restate that use of proceeds.",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm"
+   "detail": "¥73.4bn of 0.955% Senior Notes due 27 Nov 2026. The 17 Nov 424B5 says net proceeds are for general corporate purposes, including refinancing these notes and the 0.203% notes due 25 Jan 2027.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
   },
   {
    "date": "Mon 25 Jan 2027",
    "event": "0.203% yen notes mature",
-   "detail": "¥23.0bn of 0.203% Senior Notes due 25 Jan 2027, as described in the 9 Nov 424B5. The 13 Nov FWP does not restate use of proceeds.",
-   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526452592/d86634d424b5.htm"
+   "detail": "¥23.0bn of 0.203% Senior Notes due 25 Jan 2027. The 17 Nov 424B5 says net proceeds are for general corporate purposes, including refinancing these notes and the 0.955% notes due 27 Nov 2026.",
+   "url": "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
   },
   {
    "date": "Tue 16 Feb 2027 (SEC deadline)",
@@ -1507,7 +1573,7 @@
   {
    "date": "Unconfirmed (third-party)",
    "event": "Q4 2026 results and annual report",
-   "detail": "Berkshire’s 2026 news index now leads with the 16 Nov Thanksgiving release. No Q4 or annual-report date is posted. TipRanks estimates 22 Feb 2027 and marks it TBA, not confirmed, based on past reporting. That estimate was on this page at the 16 Nov scan and was not replaced by a company date. Third-party calendar, not a Berkshire date. Q4 2025 was released 28 Feb 2026.",
+   "detail": "Berkshire’s 2026 news index, re-checked this scan, still leads with the 16 Nov Thanksgiving release. No Q4 or annual-report date is posted. TipRanks estimates 22 Feb 2027 and marks it TBA, not confirmed, based on past reporting. The TipRanks earnings page returned HTTP 403 at this scan, so that estimate is carried forward from the 16 Nov scan and was not replaced by a company date. Third-party calendar, not a Berkshire date. Q4 2025 was released 28 Feb 2026.",
    "url": "https://www.tipranks.com/stocks/ch:brh/earnings"
   },
   {
@@ -1898,6 +1964,54 @@
  },
  "filings": [
   [
+   "2026-11-17",
+   "SCHEDULE 13D/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465884/"
+  ],
+  [
+   "2026-11-17",
+   "4",
+   "2026-11-16",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465872/"
+  ],
+  [
+   "2026-11-17",
+   "424B5",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526465047/d86634d424b5.htm"
+  ],
+  [
+   "2026-11-16",
+   "SCHEDULE 13G/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526464219/"
+  ],
+  [
+   "2026-11-16",
+   "SCHEDULE 13G",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526464218/"
+  ],
+  [
+   "2026-11-16",
+   "SCHEDULE 13G/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526464214/"
+  ],
+  [
+   "2026-11-16",
+   "SCHEDULE 13G/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526464211/"
+  ],
+  [
+   "2026-11-16",
+   "SCHEDULE 13G/A",
+   "",
+   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526464189/"
+  ],
+  [
    "2026-11-16",
    "4",
    "2026-11-12",
@@ -1998,54 +2112,6 @@
    "4",
    "2026-09-17",
    "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397059/"
-  ],
-  [
-   "2026-09-21",
-   "3",
-   "2026-09-17",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526397052/"
-  ],
-  [
-   "2026-09-04",
-   "4",
-   "2026-09-03",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000172845126000003/"
-  ],
-  [
-   "2026-08-14",
-   "SCHEDULE 13G/A",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352910/"
-  ],
-  [
-   "2026-08-14",
-   "SCHEDULE 13G",
-   "",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352904/"
-  ],
-  [
-   "2026-08-14",
-   "13F-HR",
-   "2026-06-30",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526352200/"
-  ],
-  [
-   "2026-08-13",
-   "4",
-   "2026-08-12",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349574/"
-  ],
-  [
-   "2026-08-13",
-   "4",
-   "2026-08-12",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526349555/"
-  ],
-  [
-   "2026-08-11",
-   "8-K",
-   "2026-08-08",
-   "https://www.sec.gov/Archives/edgar/data/1067983/000119312526344495/d159922d8k.htm"
   ]
  ]
 }
